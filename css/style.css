@@ -174,3 +174,31 @@ section {
 }
 .tooltip .chaotic { color: #F55; }
 .tooltip .lawful  { color: #0A0; }
+/* Dark mode overrides */
+body.dark-mode {
+  background: #1e1e1e;
+  color: #ddd;
+}
+body.dark-mode aside.search-panel {
+  background: #2a2a2a;
+}
+body.dark-mode section {
+  background: #252525;
+}
+body.dark-mode .card {
+  background: #2a2a2a;
+  border-color: #444;
+  box-shadow: none;
+}
+body.dark-mode .item-tier,
+body.dark-mode .item-level,
+body.dark-mode .main-stat,
+body.dark-mode .sub-stat {
+  color: #bbb;
+}
+body.dark-mode .rarity { color: #e6b800; }
+body.dark-mode .lore   { color: #999; }
+body.dark-mode .tooltip {
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+}

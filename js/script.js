@@ -68,6 +68,17 @@ async function init() {
         syns.forEach(s => synonymsMap[s.toLowerCase()] = lcCanon);
       });
     }
+// dark mode
+const btn = document.getElementById('theme-toggle');
+const stored = localStorage.getItem('theme');
+if (stored === 'dark') document.body.classList.add('dark-mode');
+
+// toggle handler
+btn.addEventListener('click', () => {
+  const isDark = document.body.classList.toggle('dark-mode');
+  localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  btn.textContent = isDark ? '☀️' : '🌙';
+});
 
     // Load and flatten items
     const itRes = await fetch('data/items.json');

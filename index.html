@@ -4,18 +4,25 @@
   <meta charset="UTF-8">
   <title>Dungeon Realms Compendium</title>
   <meta name="description" content="An interactive guide to all Dungeon Realms Mythic items." />
-  <link rel="stylesheet" href="css/style.css">
 
+  <!-- Open Graph -->
   <meta property="og:type"        content="website" />
   <meta property="og:url"         content="https://omgxhat.github.io/dr-compendium.com/" />
   <meta property="og:title"       content="Dungeon Realms Compendium" />
   <meta property="og:description" content="Browse and filter every item in Dungeon Realms." />
   <meta property="og:image"       content="https://www.dungeonrealms.net/assets/drlogo.webp" />
 
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Dungeon Realms Item Guide</h1>
 
+  <!-- Header with title + dark-mode toggle -->
+  <header class="site-header">
+    <h1>Dungeon Realms Item Guide</h1>
+    <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+  </header>
+
+  <!-- Sidebar filters -->
   <aside class="search-panel">
     <input id="search" placeholder="Search items…" />
 
@@ -41,7 +48,6 @@
 
       <!-- Tier -->
       <div class="filter-group">
-        <!-- <button data-filter-tier="all">All Tiers</button> -->
         <button data-filter-tier="1">Tier 1</button>
         <button data-filter-tier="2">Tier 2</button>
         <button data-filter-tier="3">Tier 3</button>
@@ -57,6 +63,7 @@
     </div>
   </aside>
 
+  <!-- Item grid -->
   <section id="grid"></section>
 
   <script src="js/script.js"></script>
