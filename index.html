@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Item Guide</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Dungeon Realms Item Guide</h1>
+
+  <aside class="search-panel">
+    <input id="search" placeholder="Search items…" />
+
+    <div id="filters">
+      <!-- Weapons -->
+      <div class="filter-group">
+        <button data-filter-category="weapon">Weapons</button>
+        <button data-filter-subcategory="scythe">Scythe</button>
+        <button data-filter-subcategory="sword">Sword</button>
+        <button data-filter-subcategory="axe">Axe</button>
+        <button data-filter-subcategory="mace">Mace</button>
+        <button data-filter-subcategory="bow">Bow</button>
+      </div>
+
+      <!-- Armor -->
+      <div class="filter-group">
+        <button data-filter-category="armor">Armor</button>
+        <button data-filter-subcategory="helmet">Helmet</button>
+        <button data-filter-subcategory="chestplate">Chestplate</button>
+        <button data-filter-subcategory="leggings">Leggings</button>
+        <button data-filter-subcategory="boots">Boots</button>
+      </div>
+
+      <!-- Tier -->
+      <div class="filter-group">
+        <!-- <button data-filter-tier="all">All Tiers</button> -->
+        <button data-filter-tier="1">Tier 1</button>
+        <button data-filter-tier="2">Tier 2</button>
+        <button data-filter-tier="3">Tier 3</button>
+        <button data-filter-tier="4">Tier 4</button>
+        <button data-filter-tier="5">Tier 5</button>
+      </div>
+
+      <!-- Zone -->
+      <div class="filter-group">
+        <button data-filter-zone="lawful">Lawful Zone</button>
+        <button data-filter-zone="chaotic">Chaotic Zone</button>
+      </div>
+    </div>
+  </aside>
+
+  <section id="grid"></section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
