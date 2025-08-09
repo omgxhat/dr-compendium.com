@@ -1,4 +1,5 @@
 // Global state
+const VERSION = '2'; 
 let items = [];
 const synonymsMap = {};
 let selectedCategories = new Set();
@@ -63,7 +64,7 @@ const ICONS = {
 async function init() {
   try {
     // Load and process keywords
-    const kwRes = await fetch('data/keywords.json');
+    const kwRes = await fetch(`data/keywords.json?v=${VERSION}`, { cache: 'no-store' });
     if (!kwRes.ok) throw new Error(kwRes.statusText);
     const kwData = await kwRes.json();
     if (Array.isArray(kwData)) {
@@ -88,7 +89,7 @@ btn.addEventListener('click', () => {
 });
 
     // Load and flatten items
-const itRes = await fetch('data/items.json');
+const itRes = await fetch(`data/items.json?v=${VERSION}`,     { cache: 'no-store' });
 if (!itRes.ok) throw new Error(itRes.statusText);
 const grouped = await itRes.json();
 
@@ -229,7 +230,7 @@ function makeCard(it) {
   // Icon
   const img = document.createElement('img');
   const fileName = ICONS[it.img] || `${it.img}.gif`;
-  img.src = `./images/items/${fileName}`;
+  img.src     = `./images/items/${fileName}?v=${VERSION}`;
   img.alt = it.name;
   img.className = 'item-image';
   card.appendChild(img);
@@ -281,7 +282,7 @@ function makeCard(it) {
   const icoCt = document.createElement('div');
   icoCt.className = 'info-icon-container';
   const infoImg = document.createElement('img');
-  infoImg.src = `images/mobs/t${it.tier}_mob.png`;
+  infoImg.src = `images/mobs/t${it.tier}_mob.png?v=${VERSION}`;
   infoImg.className = 'info-icon';
   icoCt.appendChild(infoImg);
 
