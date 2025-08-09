@@ -4,11 +4,18 @@ const synonymsMap = {};
 let selectedCategories = new Set();
 let selectedSubCategories = new Set();
 let selectedTiers = new Set();
+let selectedRarities = new Set();
 let selectedZone = null;
 let searchTerm = '';
 
 // Map for icon filenames
 const ICONS = {
+  starter_sword: 'wood_sword_normal.png',
+  starter_shield: 'shield.png',
+  starter_helmet: 'leather_helmet_normal.png',
+  starter_chestplate: 'leather_chestplate_normal.png',
+  starter_leggings: 'leather_leggings_normal.png',
+  starter_boots: 'leather_boots_normal.png',
   t1_helmet:   'leather_helmet.gif',
   t1_chest:    'leather_chestplate.gif',
   t1_leggings: 'leather_pants.gif',
@@ -81,20 +88,25 @@ btn.addEventListener('click', () => {
 });
 
     // Load and flatten items
-    const itRes = await fetch('data/items.json');
-    if (!itRes.ok) throw new Error(itRes.statusText);
-    const grouped = await itRes.json();
-    Object.values(grouped).forEach(group => {
-      const { drops_from, location, is_chaotic, ...pieces } = group;
-      Object.values(pieces).forEach(item => {
-        items.push({
-          ...item,
-          drops_from,
-          location,
-          is_chaotic: String(is_chaotic)
-        });
-      });
+const itRes = await fetch('data/items.json');
+if (!itRes.ok) throw new Error(itRes.statusText);
+const grouped = await itRes.json();
+
+items = [];
+Object.entries(grouped).forEach(([slug, group]) => {
+  const { drops_from, location, is_chaotic, ...pieces } = group;
+  const isUltimate = /^ultimate_/i.test(slug);
+  Object.values(pieces).forEach(item => {
+    items.push({
+      ...item,
+      drops_from,
+      location,
+      is_chaotic: String(is_chaotic),
+      group_slug: slug,
+      is_ultimate: isUltimate
     });
+  });
+});
 
     attachListeners();
     render();
@@ -125,6 +137,13 @@ function attachListeners() {
       render();
     });
   });
+  // rarity buttons
+document.querySelectorAll('[data-filter-rarity]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    toggleSet(selectedRarities, btn.dataset.filterRarity.toLowerCase(), btn);
+    render();
+  });
+});
 
   document.querySelectorAll('[data-filter-zone]').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -171,10 +190,18 @@ function render() {
     if (selectedCategories.size && !selectedCategories.has(it.category)) return false;
     if (selectedSubCategories.size && !selectedSubCategories.has(it.sub_category)) return false;
     if (selectedTiers.size && !selectedTiers.has(String(it.tier))) return false;
-    if (selectedZone) {
-      const zone = it.is_chaotic === 'true' ? 'chaotic' : 'lawful';
-      if (zone !== selectedZone) return false;
-    }
+if (selectedZone) {
+  const zone = it.is_chaotic === 'true' ? 'chaotic' : 'lawful';
+  if (zone !== selectedZone) return false;
+}
+
+if (selectedRarities.size) {
+  const r = String(it.rarity || '').trim().toLowerCase();
+  const isUlt = !!it.is_ultimate;
+  const match = selectedRarities.has(r) || (selectedRarities.has('ultimate') && isUlt);
+  if (!match) return false;
+}
+
     if (searchTerm) {
       const haystack = [
         it.name, it.drops_from, it.location,
@@ -194,6 +221,10 @@ function render() {
 function makeCard(it) {
   const card = document.createElement('div');
   card.className = `card tier-${it.tier}`;
+
+  // add rarity + ultimate classes
+  if (it.rarity) card.classList.add(`rarity-${String(it.rarity).toLowerCase()}`);
+  if (it.is_ultimate) card.classList.add('ultimate');
 
   // Icon
   const img = document.createElement('img');

@@ -6,7 +6,7 @@
     "item_1": {
       "name": "Training Sword",
       "tier": "1",
-      "img": "t1_sword",
+      "img": "starter_sword",
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 7 - 8",
@@ -18,13 +18,29 @@
       "sub_stat_4": "",
       "rarity": "COMMON",
       "level": "1",
-      "lore": "",
-      "is_chaotic": ""
+      "lore": ""
+    },
+    "item_2_5": {
+      "name": "Training Shield",
+      "tier": "1",
+      "img": "starter_shield",
+      "category": "armor",
+      "sub_category": "shield",
+      "main_stat_1": "HP: +40",
+      "main_stat_2": "DMG REDUCTION: 3 - 3",
+      "main_stat_3": "HP REGEN: +20/s",
+      "sub_stat_1": "",
+      "sub_stat_2": "",
+      "sub_stat_3": "",
+      "sub_stat_4": "",
+      "rarity": "COMMON",
+      "level": "1",
+      "lore": ""
     },
     "item_2": {
       "name": "Training Helmet",
       "tier": "1",
-      "img": "t1_helmet",
+      "img": "starter_helmet",
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +40",
@@ -36,13 +52,12 @@
       "sub_stat_4": "",
       "rarity": "COMMON",
       "level": "1",
-      "lore": "",
-      "is_chaotic": ""
+      "lore": ""
     },
     "item_3": {
       "name": "Training Chestplate",
       "tier": "1",
-      "img": "t1_chest",
+      "img": "starter_chestplate",
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +40",
@@ -54,13 +69,12 @@
       "sub_stat_4": "",
       "rarity": "COMMON",
       "level": "1",
-      "lore": "",
-      "is_chaotic": ""
+      "lore": ""
     },
     "item_4": {
       "name": "Training Leggings",
       "tier": "1",
-      "img": "t1_leggings",
+      "img": "starter_leggings",
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +40",
@@ -72,13 +86,12 @@
       "sub_stat_4": "",
       "rarity": "COMMON",
       "level": "1",
-      "lore": "",
-      "is_chaotic": ""
+      "lore": ""
     },
     "item_5": {
       "name": "Training Boots",
       "tier": "1",
-      "img": "t1_boots",
+      "img": "starter_boots",
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +40",
@@ -90,8 +103,7 @@
       "sub_stat_4": "",
       "rarity": "COMMON",
       "level": "1",
-      "lore": "",
-      "is_chaotic": ""
+      "lore": ""
     }
   },
   "carrot_farmer": {
@@ -105,16 +117,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 14-15 - 15-16",
-      "main_stat_2": "POISON DMG: +4-5",
-      "main_stat_3": "CRUSHING: +20-25%",
-      "sub_stat_1": "VS. PLAYERS: +15-20%",
-      "sub_stat_2": "PIERCING: +3-5",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +4-5",
+      "sub_stat_2": "CRUSHING: +20-25%",
+      "sub_stat_3": "VS. PLAYERS: +15-20%",
+      "sub_stat_4": "PIERCING: +3-5",
       "rarity": "EPIC",
       "level": "12",
-      "lore": "The well-used shovel of a wretched carrot farmer.",
-      "is_chaotic": ""
+      "lore": "The well-used shovel of a wretched carrot farmer."
     },
     "item_7": {
       "name": "Bloodstained Farmer's Hat",
@@ -123,16 +134,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +76-82",
-      "main_stat_2": "ENERGY REGEN: +3.29-3.47/s",
-      "main_stat_3": "VIT: +175-200",
-      "sub_stat_1": "STR: +175-200",
-      "sub_stat_2": "THORNS: +6-8%",
-      "sub_stat_3": "BLOCK: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 4 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.29-3.47/s",
+      "sub_stat_1": "VIT: +175-200",
+      "sub_stat_2": "STR: +175-200",
+      "sub_stat_3": "THORNS: +6-8%",
+      "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "12",
-      "lore": "The carrot farmer's cap. Instead of sweat, blood drips from your cheek.",
-      "is_chaotic": ""
+      "lore": "The carrot farmer's cap. Instead of sweat, blood drips from your cheek."
     },
     "item_8": {
       "name": "Bloodstained Farmer's Shirt",
@@ -141,16 +151,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +76-82",
-      "main_stat_2": "ENERGY REGEN: +3.29-3.47/s",
-      "main_stat_3": "VIT: +175-200",
-      "sub_stat_1": "STR: +175-200",
-      "sub_stat_2": "THORNS: +6-8%",
-      "sub_stat_3": "BLOCK: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 4 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.29-3.47/s",
+      "sub_stat_1": "VIT: +175-200",
+      "sub_stat_2": "STR: +175-200",
+      "sub_stat_3": "THORNS: +6-8%",
+      "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "12",
-      "lore": "The carrot farmer's shirt. Large, worn, yet still fits.",
-      "is_chaotic": ""
+      "lore": "The carrot farmer's shirt. Large, worn, yet still fits."
     },
     "item_9": {
       "name": "Bloodstained Farmer's Jeans",
@@ -159,16 +168,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +76-82",
-      "main_stat_2": "ENERGY REGEN: +3.29-3.47/s",
-      "main_stat_3": "VIT: +175-200",
-      "sub_stat_1": "STR: +175-200",
-      "sub_stat_2": "THORNS: +6-8%",
-      "sub_stat_3": "BLOCK: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 4 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.29-3.47/s",
+      "sub_stat_1": "VIT: +175-200",
+      "sub_stat_2": "STR: +175-200",
+      "sub_stat_3": "THORNS: +6-8%",
+      "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "12",
-      "lore": "The carrot farmer's jeans. His blood forever will remain.",
-      "is_chaotic": ""
+      "lore": "The carrot farmer's jeans. His blood forever will remain."
     },
     "item_10": {
       "name": "Bloodstained Farmer's Boots",
@@ -177,16 +185,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +76-82",
-      "main_stat_2": "ENERGY REGEN: +3.29-3.47/s",
-      "main_stat_3": "VIT: +175-200",
-      "sub_stat_1": "STR: +175-200",
-      "sub_stat_2": "THORNS: +6-8%",
-      "sub_stat_3": "BLOCK: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 4 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.29-3.47/s",
+      "sub_stat_1": "VIT: +175-200",
+      "sub_stat_2": "STR: +175-200",
+      "sub_stat_3": "THORNS: +6-8%",
+      "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "12",
-      "lore": "The carrot farmer's old bloody boots. It's still wet.",
-      "is_chaotic": ""
+      "lore": "The carrot farmer's old bloody boots. It's still wet."
     }
   },
   "wheat_farmer": {
@@ -198,18 +205,17 @@
       "tier": "1",
       "img": "t1_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 11-12 - 12-14",
-      "main_stat_2": "ICE DMG: +3-4",
-      "main_stat_3": "CLEAVE: +8-10%",
-      "sub_stat_1": "VS. MONSTERS: +12-15%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +3-4",
+      "sub_stat_2": "CLEAVE: +8-10%",
+      "sub_stat_3": "VS. MONSTERS: +12-15%",
       "sub_stat_4": "",
       "rarity": "RARE",
       "level": "13",
-      "lore": "The dull blade of a wheat farmer's scythe.",
-      "is_chaotic": ""
+      "lore": "The dull blade of a wheat farmer's scythe."
     },
     "item_12": {
       "name": "Tattered Farmer's Hat",
@@ -218,16 +224,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +71-77",
-      "main_stat_2": "ENERGY REGEN: +3.19-3.38/s",
-      "main_stat_3": "INT: +175-200",
-      "sub_stat_1": "VIT: +175-200",
-      "sub_stat_2": "HEALING: +4-5%",
-      "sub_stat_3": "ELEMENTAL RESISTANCE: +15-20%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 4 - 4",
+      "main_stat_3": "ENERGY REGEN: +3.19-3.38/s",
+      "sub_stat_1": "INT: +175-200",
+      "sub_stat_2": "VIT: +175-200",
+      "sub_stat_3": "HEALING: +4-5%",
+      "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "13",
-      "lore": "A wheat farmer's dirty, sun-stained cap.",
-      "is_chaotic": ""
+      "lore": "A wheat farmer's dirty, sun-stained cap."
     },
     "item_13": {
       "name": "Tattered Farmer's Shirt",
@@ -236,16 +241,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +71-77",
-      "main_stat_2": "ENERGY REGEN: +3.19-3.38/s",
-      "main_stat_3": "INT: +175-200",
-      "sub_stat_1": "VIT: +175-200",
-      "sub_stat_2": "HEALING: +4-5%",
-      "sub_stat_3": "ELEMENTAL RESISTANCE: +15-20%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 4 - 4",
+      "main_stat_3": "ENERGY REGEN: +3.19-3.38/s",
+      "sub_stat_1": "INT: +175-200",
+      "sub_stat_2": "VIT: +175-200",
+      "sub_stat_3": "HEALING: +4-5%",
+      "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "13",
-      "lore": "A crazed wheat farmer's stained shirt covered in sweat.",
-      "is_chaotic": ""
+      "lore": "A crazed wheat farmer's stained shirt covered in sweat."
     },
     "item_14": {
       "name": "Tattered Farmer's Jeans",
@@ -254,16 +258,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +71-77",
-      "main_stat_2": "ENERGY REGEN: +3.19-3.38/s",
-      "main_stat_3": "INT: +175-200",
-      "sub_stat_1": "VIT: +175-200",
-      "sub_stat_2": "HEALING: +4-5%",
-      "sub_stat_3": "ELEMENTAL RESISTANCE: +15-20%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 4 - 4",
+      "main_stat_3": "ENERGY REGEN: +3.19-3.38/s",
+      "sub_stat_1": "INT: +175-200",
+      "sub_stat_2": "VIT: +175-200",
+      "sub_stat_3": "HEALING: +4-5%",
+      "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "13",
-      "lore": "A poor wheat farmer's worn out pants.",
-      "is_chaotic": ""
+      "lore": "A poor wheat farmer's worn out pants."
     },
     "item_15": {
       "name": "Tattered Farmer's Boots",
@@ -272,16 +275,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +71-77",
-      "main_stat_2": "ENERGY REGEN: +3.19-3.38/s",
-      "main_stat_3": "INT: +175-200",
-      "sub_stat_1": "VIT: +175-200",
-      "sub_stat_2": "HEALING: +4-5%",
-      "sub_stat_3": "ELEMENTAL RESISTANCE: +15-20%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 4 - 4",
+      "main_stat_3": "ENERGY REGEN: +3.19-3.38/s",
+      "sub_stat_1": "INT: +175-200",
+      "sub_stat_2": "VIT: +175-200",
+      "sub_stat_3": "HEALING: +4-5%",
+      "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "13",
-      "lore": "A wheat farmer's old boots that barely hold themselves together.",
-      "is_chaotic": ""
+      "lore": "A wheat farmer's old boots that barely hold themselves together."
     }
   },
   "adra": {
@@ -295,16 +297,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 13-15 - 15-16",
-      "main_stat_2": "ICE DMG: +3-4",
-      "main_stat_3": "PURE DMG: +3-4",
-      "sub_stat_1": "SHATTER: +6-8%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +3-4",
+      "sub_stat_2": "PURE DMG: +3-4",
+      "sub_stat_3": "SHATTER: +6-8%",
       "sub_stat_4": "",
       "rarity": "EPIC",
       "level": "15",
-      "lore": "The magically infused axe of a naga shrine keeper.",
-      "is_chaotic": ""
+      "lore": "The magically infused axe of a naga shrine keeper."
     },
     "item_17": {
       "name": "Adra's Hood",
@@ -321,8 +322,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "15",
-      "lore": "A light and weathered hood fit for a naga.",
-      "is_chaotic": ""
+      "lore": "A light and weathered hood fit for a naga."
     },
     "item_18": {
       "name": "Adra's Weathered Breastplate",
@@ -339,8 +339,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "15",
-      "lore": "A scaled platemail with a mysterious runic inscription.",
-      "is_chaotic": ""
+      "lore": "A scaled platemail with a mysterious runic inscription."
     },
     "item_19": {
       "name": "Adra's Cloak",
@@ -357,8 +356,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "15",
-      "lore": "A weathered cloak that appears to have water damage.",
-      "is_chaotic": ""
+      "lore": "A weathered cloak that appears to have water damage."
     },
     "item_20": {
       "name": "Adra's Holy Boots",
@@ -375,8 +373,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "15",
-      "lore": "A weathered pair of boots with an unusual shape.",
-      "is_chaotic": ""
+      "lore": "A weathered pair of boots with an unusual shape."
     }
   },
   "mad_bandit": {
@@ -398,8 +395,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "15",
-      "lore": "Goggles crafted to withstand explosions and flames.",
-      "is_chaotic": ""
+      "lore": "Goggles crafted to withstand explosions and flames."
     },
     "item_22": {
       "name": "The Mad Pyromancer's Cloak",
@@ -416,8 +412,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "15",
-      "lore": "A cloak singed in burning embers.",
-      "is_chaotic": ""
+      "lore": "A cloak singed in burning embers."
     },
     "item_23": {
       "name": "The Mad Pyromancer's Scorched Leggings",
@@ -434,8 +429,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "15",
-      "lore": "Leggings scorched from a failed experiment.",
-      "is_chaotic": ""
+      "lore": "Leggings scorched from a failed experiment."
     },
     "item_24": {
       "name": "The Mad Pyromancer's Boots",
@@ -452,8 +446,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "15",
-      "lore": "Boots made for the endeavors of Stonehenge.",
-      "is_chaotic": ""
+      "lore": "Boots made for the endeavors of Stonehenge."
     },
     "item_25": {
       "name": "Wildfire",
@@ -462,16 +455,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 16-17 - 17-18",
-      "main_stat_2": "FIRE DMG: +4-5",
-      "main_stat_3": "CRITICAL HIT: +6-8%",
-      "sub_stat_1": "BLINDING: +7-8%",
-      "sub_stat_2": "PIERCING: +6-8",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +4-5",
+      "sub_stat_2": "CRITICAL HIT: +6-8%",
+      "sub_stat_3": "BLINDING: +7-8%",
+      "sub_stat_4": "PIERCING: +6-8",
       "rarity": "EPIC",
       "level": "15",
-      "lore": "A bow strung together with wicked magic and explosives.",
-      "is_chaotic": ""
+      "lore": "A bow strung together with wicked magic and explosives."
     }
   },
   "mayel": {
@@ -485,16 +477,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 16-17 - 17-18",
-      "main_stat_2": "POISON DMG: +4-5",
-      "main_stat_3": "CRITICAL HIT: +5-6%",
-      "sub_stat_1": "SHATTER: +5-6%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +4-5",
+      "sub_stat_2": "CRITICAL HIT: +5-6%",
+      "sub_stat_3": "SHATTER: +5-6%",
       "sub_stat_4": "",
       "rarity": "LEGENDARY",
       "level": "15",
-      "lore": "A well made, sharpened hatchet, suited for a thieving captain.",
-      "is_chaotic": ""
+      "lore": "A well made, sharpened hatchet, suited for a thieving captain."
     },
     "item_27": {
       "name": "Mayel's Pristine Bandit Hood",
@@ -503,16 +494,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +91-97",
-      "main_stat_2": "ENERGY REGEN: +3.47-3.66/s",
-      "main_stat_3": "STR: +175-200",
-      "sub_stat_1": "DEX: +175-200",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ITEM FIND: +7-8%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 5 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.47-3.66/s",
+      "sub_stat_1": "STR: +175-200",
+      "sub_stat_2": "DEX: +175-200",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "LEGENDARY",
       "level": "15",
-      "lore": "A fashionable helmet, kept in quite good shape.",
-      "is_chaotic": ""
+      "lore": "A fashionable helmet, kept in quite good shape."
     },
     "item_28": {
       "name": "Mayel's Battle Platemail",
@@ -521,16 +511,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +91-97",
-      "main_stat_2": "ENERGY REGEN: +3.47-3.66/s",
-      "main_stat_3": "STR: +175-200",
-      "sub_stat_1": "DEX: +175-200",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ITEM FIND: +7-8%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 5 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.47-3.66/s",
+      "sub_stat_1": "STR: +175-200",
+      "sub_stat_2": "DEX: +175-200",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "LEGENDARY",
       "level": "15",
-      "lore": "Dented, battle-scarred, and yet highly protective platemail.",
-      "is_chaotic": ""
+      "lore": "Dented, battle-scarred, and yet highly protective platemail."
     },
     "item_29": {
       "name": "Mayel's Reinforced Leggings",
@@ -539,16 +528,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +91-97",
-      "main_stat_2": "ENERGY REGEN: +3.47-3.66/s",
-      "main_stat_3": "STR: +175-200",
-      "sub_stat_1": "DEX: +175-200",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ITEM FIND: +7-8%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 5 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.47-3.66/s",
+      "sub_stat_1": "STR: +175-200",
+      "sub_stat_2": "DEX: +175-200",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "LEGENDARY",
       "level": "15",
-      "lore": "A pair of sturdy and well made leather leggings.",
-      "is_chaotic": ""
+      "lore": "A pair of sturdy and well made leather leggings."
     },
     "item_30": {
       "name": "Mayel's Mountain Boots",
@@ -557,16 +545,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +91-97",
-      "main_stat_2": "ENERGY REGEN: +3.47-3.66/s",
-      "main_stat_3": "STR: +175-200",
-      "sub_stat_1": "DEX: +175-200",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ITEM FIND: +7-8%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 5 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.47-3.66/s",
+      "sub_stat_1": "STR: +175-200",
+      "sub_stat_2": "DEX: +175-200",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "LEGENDARY",
       "level": "15",
-      "lore": "Boots made for long treks in the Dead Peaks.",
-      "is_chaotic": ""
+      "lore": "Boots made for long treks in the Dead Peaks."
     }
   },
   "mitsuki": {
@@ -580,16 +567,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 13-14 - 14-16",
-      "main_stat_2": "PURE DMG: +3-4",
-      "main_stat_3": "LIFE STEAL: +15-20%",
-      "sub_stat_1": "EXECUTE: +8-10%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +3-4",
+      "sub_stat_2": "LIFE STEAL: +15-20%",
+      "sub_stat_3": "EXECUTE: +8-10%",
       "sub_stat_4": "",
       "rarity": "EPIC",
       "level": "17",
-      "lore": "Mitsuki's blood-stained, rigid sword.",
-      "is_chaotic": ""
+      "lore": "Mitsuki's blood-stained, rigid sword."
     },
     "item_32": {
       "name": "Mitsuki's Leather Coif",
@@ -606,8 +592,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "17",
-      "lore": "The ripped remains of a leather coif, far from an armorer's standards.",
-      "is_chaotic": ""
+      "lore": "The ripped remains of a leather coif, far from an armorer's standards."
     },
     "item_33": {
       "name": "Mitsuki's Dirty Leather Rags",
@@ -624,8 +609,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "17",
-      "lore": "Blood stained rags that reek of rotten flesh.",
-      "is_chaotic": ""
+      "lore": "Blood stained rags that reek of rotten flesh."
     },
     "item_34": {
       "name": "Mitsuki's Ripped Leather Pants",
@@ -642,8 +626,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "17",
-      "lore": "These pants may as well be shorts due to their ripped nature.",
-      "is_chaotic": ""
+      "lore": "These pants may as well be shorts due to their ripped nature."
     },
     "item_35": {
       "name": "Mitsuki's Leather Sandals",
@@ -660,8 +643,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "17",
-      "lore": "Blood stained sandals, which appear to be uncomfortable.",
-      "is_chaotic": ""
+      "lore": "Blood stained sandals, which appear to be uncomfortable."
     }
   },
   "ultimate_mad_bandit": {
@@ -683,8 +665,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "20",
-      "lore": "Goggles crafted to withstand explosions and flames.",
-      "is_chaotic": ""
+      "lore": "Goggles crafted to withstand explosions and flames."
     },
     "item_37": {
       "name": "The Mad Pyromancer's Cloak",
@@ -701,8 +682,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "20",
-      "lore": "A cloak singed in burning embers.",
-      "is_chaotic": ""
+      "lore": "A cloak singed in burning embers."
     },
     "item_38": {
       "name": "The Mad Pyromancer's Scorched Leggings",
@@ -719,8 +699,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "20",
-      "lore": "Leggings scorched from a failed experiment.",
-      "is_chaotic": ""
+      "lore": "Leggings scorched from a failed experiment."
     },
     "item_39": {
       "name": "The Mad Pyromancer's Boots",
@@ -737,8 +716,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "20",
-      "lore": "Boots made for the endeavors of Stonehenge.",
-      "is_chaotic": ""
+      "lore": "Boots made for the endeavors of Stonehenge."
     },
     "item_40": {
       "name": "Wildfire",
@@ -747,16 +725,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 18-19 - 19-21",
-      "main_stat_2": "FIRE DMG: +4-5",
-      "main_stat_3": "CRITICAL HIT: +6-8%",
-      "sub_stat_1": "BLINDING: +7-8%",
-      "sub_stat_2": "PIERCING: +6-8",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +4-5",
+      "sub_stat_2": "CRITICAL HIT: +6-8%",
+      "sub_stat_3": "BLINDING: +7-8%",
+      "sub_stat_4": "PIERCING: +6-8",
       "rarity": "LEGENDARY",
       "level": "20",
-      "lore": "A bow strung together with wicked magic and explosives.",
-      "is_chaotic": ""
+      "lore": "A bow strung together with wicked magic and explosives."
     }
   },
   "ultimate_mayel": {
@@ -770,16 +747,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 18-19 - 19-20",
-      "main_stat_2": "POISON DMG: +4-5",
-      "main_stat_3": "CRITICAL HIT: +5-6%",
-      "sub_stat_1": "SHATTER: +5-6%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +4-5",
+      "sub_stat_2": "CRITICAL HIT: +5-6%",
+      "sub_stat_3": "SHATTER: +5-6%",
       "sub_stat_4": "",
       "rarity": "LEGENDARY",
       "level": "20",
-      "lore": "A well made, sharpened hatchet, suited for a thieving captain.",
-      "is_chaotic": ""
+      "lore": "A well made, sharpened hatchet, suited for a thieving captain."
     },
     "item_42": {
       "name": "Mayel's Pristine Bandit Hood",
@@ -788,16 +764,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +102-108",
-      "main_stat_2": "ENERGY REGEN: +3.56-3.75/s",
-      "main_stat_3": "STR: +175-200",
-      "sub_stat_1": "DEX: +175-200",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ITEM FIND: +7-8%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 5 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.56-3.75/s",
+      "sub_stat_1": "STR: +175-200",
+      "sub_stat_2": "DEX: +175-200",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "LEGENDARY",
       "level": "20",
-      "lore": "A fashionable helmet, kept in quite good shape.",
-      "is_chaotic": ""
+      "lore": "A fashionable helmet, kept in quite good shape."
     },
     "item_43": {
       "name": "Mayel's Battle Platemail",
@@ -806,16 +781,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +102-108",
-      "main_stat_2": "ENERGY REGEN: +3.56-3.75/s",
-      "main_stat_3": "STR: +175-200",
-      "sub_stat_1": "DEX: +175-200",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ITEM FIND: +7-8%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 5 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.56-3.75/s",
+      "sub_stat_1": "STR: +175-200",
+      "sub_stat_2": "DEX: +175-200",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "LEGENDARY",
       "level": "20",
-      "lore": "Dented, battle-scarred, and yet highly protective platemail.",
-      "is_chaotic": ""
+      "lore": "Dented, battle-scarred, and yet highly protective platemail."
     },
     "item_44": {
       "name": "Mayel's Reinforced Leggings",
@@ -824,16 +798,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +102-108",
-      "main_stat_2": "ENERGY REGEN: +3.56-3.75/s",
-      "main_stat_3": "STR: +175-200",
-      "sub_stat_1": "DEX: +175-200",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ITEM FIND: +7-8%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 5 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.56-3.75/s",
+      "sub_stat_1": "STR: +175-200",
+      "sub_stat_2": "DEX: +175-200",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "LEGENDARY",
       "level": "20",
-      "lore": "A pair of sturdy and well made leather leggings.",
-      "is_chaotic": ""
+      "lore": "A pair of sturdy and well made leather leggings."
     },
     "item_45": {
       "name": "Mayel's Mountain Boots",
@@ -842,16 +815,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +102-108",
-      "main_stat_2": "ENERGY REGEN: +3.56-3.75/s",
-      "main_stat_3": "STR: +175-200",
-      "sub_stat_1": "DEX: +175-200",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ITEM FIND: +7-8%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 5 - 5",
+      "main_stat_3": "ENERGY REGEN: +3.56-3.75/s",
+      "sub_stat_1": "STR: +175-200",
+      "sub_stat_2": "DEX: +175-200",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "LEGENDARY",
       "level": "20",
-      "lore": "Boots made for long treks in the Dead Peaks.",
-      "is_chaotic": ""
+      "lore": "Boots made for long treks in the Dead Peaks."
     }
   },
   "crimson_sorceress": {
@@ -865,16 +837,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 31-32 - 32-34",
-      "main_stat_2": "PURE DMG: +7-8",
-      "main_stat_3": "CLEAVE: +8-10%",
-      "sub_stat_1": "LIFE STEAL: +12-15%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +7-8",
+      "sub_stat_2": "CLEAVE: +8-10%",
+      "sub_stat_3": "LIFE STEAL: +12-15%",
       "sub_stat_4": "",
       "rarity": "EPIC",
       "level": "28",
-      "lore": "The symbols engraved on this blade glow a deep red, fueled by its enemies' flesh.",
-      "is_chaotic": ""
+      "lore": "The symbols engraved on this blade glow a deep red, fueled by its enemies' flesh."
     },
     "item_47": {
       "name": "Coif of the Demised",
@@ -891,8 +862,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "28",
-      "lore": "A strange noble whisper can occasionally be heard emanating from this headwear.",
-      "is_chaotic": ""
+      "lore": "A strange noble whisper can occasionally be heard emanating from this headwear."
     },
     "item_48": {
       "name": "Robes of the Deceased",
@@ -909,8 +879,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "28",
-      "lore": "Even though they easily fit over the body, these robes feel slightly suffocating to wear.",
-      "is_chaotic": ""
+      "lore": "Even though they easily fit over the body, these robes feel slightly suffocating to wear."
     },
     "item_49": {
       "name": "Breeches of the Departed",
@@ -927,8 +896,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "28",
-      "lore": "An eerie feeling lingers throughout the body while wearing these leggings.",
-      "is_chaotic": ""
+      "lore": "An eerie feeling lingers throughout the body while wearing these leggings."
     },
     "item_50": {
       "name": "Boots of the Dead",
@@ -945,8 +913,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "28",
-      "lore": "These boots, although light to carry, seem as if they are sinking into the earth.",
-      "is_chaotic": ""
+      "lore": "These boots, although light to carry, seem as if they are sinking into the earth."
     }
   },
   "redbeard": {
@@ -960,16 +927,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 30-32 - 32-34",
-      "main_stat_2": "POISON DMG: +7-8",
-      "main_stat_3": "EXECUTE: +8-10%",
-      "sub_stat_1": "PIERCING: +8-10",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +7-8",
+      "sub_stat_2": "EXECUTE: +8-10%",
+      "sub_stat_3": "PIERCING: +8-10",
       "sub_stat_4": "",
       "rarity": "RARE",
       "level": "34",
-      "lore": "The blade of Mayel's rival.",
-      "is_chaotic": ""
+      "lore": "The blade of Mayel's rival."
     },
     "item_52": {
       "name": "Redbeard's Captain Hat",
@@ -978,16 +944,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +203-220",
-      "main_stat_2": "ENERGY REGEN: +4.13-4.31/s",
-      "main_stat_3": "DEX: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "GEM FIND: +14-16%",
-      "sub_stat_3": "DODGE: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 6",
+      "main_stat_3": "ENERGY REGEN: +4.13-4.31/s",
+      "sub_stat_1": "DEX: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "GEM FIND: +14-16%",
+      "sub_stat_4": "DODGE: +3-4%",
       "rarity": "RARE",
       "level": "34",
-      "lore": "A worn-out hat, suited for a pirate captain.",
-      "is_chaotic": ""
+      "lore": "A worn-out hat, suited for a pirate captain."
     },
     "item_53": {
       "name": "Hefty Cloth Vest",
@@ -996,16 +961,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +203-220",
-      "main_stat_2": "ENERGY REGEN: +4.13-4.31/s",
-      "main_stat_3": "DEX: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "GEM FIND: +14-16%",
-      "sub_stat_3": "DODGE: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 6",
+      "main_stat_3": "ENERGY REGEN: +4.13-4.31/s",
+      "sub_stat_1": "DEX: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "GEM FIND: +14-16%",
+      "sub_stat_4": "DODGE: +3-4%",
       "rarity": "RARE",
       "level": "34",
-      "lore": "A vest made of very thick and sturdy cloth.",
-      "is_chaotic": ""
+      "lore": "A vest made of very thick and sturdy cloth."
     },
     "item_54": {
       "name": "The Sash of Thieves",
@@ -1014,16 +978,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +203-220",
-      "main_stat_2": "ENERGY REGEN: +4.13-4.31/s",
-      "main_stat_3": "DEX: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "GEM FIND: +14-16%",
-      "sub_stat_3": "DODGE: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 6",
+      "main_stat_3": "ENERGY REGEN: +4.13-4.31/s",
+      "sub_stat_1": "DEX: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "GEM FIND: +14-16%",
+      "sub_stat_4": "DODGE: +3-4%",
       "rarity": "RARE",
       "level": "34",
-      "lore": "A valuable leather belt with a golden hue.",
-      "is_chaotic": ""
+      "lore": "A valuable leather belt with a golden hue."
     },
     "item_55": {
       "name": "Redbeard's Swift Chainmail Boots",
@@ -1032,16 +995,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +203-220",
-      "main_stat_2": "ENERGY REGEN: +4.13-4.31/s",
-      "main_stat_3": "DEX: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "GEM FIND: +14-16%",
-      "sub_stat_3": "DODGE: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 6",
+      "main_stat_3": "ENERGY REGEN: +4.13-4.31/s",
+      "sub_stat_1": "DEX: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "GEM FIND: +14-16%",
+      "sub_stat_4": "DODGE: +3-4%",
       "rarity": "RARE",
       "level": "34",
-      "lore": "A small pair of boots to keep a pirate quick on his toes.",
-      "is_chaotic": ""
+      "lore": "A small pair of boots to keep a pirate quick on his toes."
     }
   },
   "rihker": {
@@ -1053,18 +1015,17 @@
       "tier": "2",
       "img": "t2_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 37-39 - 39-41",
-      "main_stat_2": "FIRE DMG: +8-9",
-      "main_stat_3": "CLEAVE: +7-8%",
-      "sub_stat_1": "LIFE STEAL: +10-12%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +8-9",
+      "sub_stat_2": "CLEAVE: +7-8%",
+      "sub_stat_3": "LIFE STEAL: +10-12%",
       "sub_stat_4": "",
       "rarity": "LEGENDARY",
       "level": "35",
-      "lore": "A scorched scythe etched with sapping runes.",
-      "is_chaotic": ""
+      "lore": "A scorched scythe etched with sapping runes."
     },
     "item_57": {
       "name": "Lady Rihker's Blistering Crown",
@@ -1073,16 +1034,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +256-273",
-      "main_stat_2": "ENERGY REGEN: +4.4-4.6/s",
-      "main_stat_3": "INT: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "REFLECT: +3-4%",
-      "sub_stat_3": "HEALING: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 7 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.4-4.6/s",
+      "sub_stat_1": "INT: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "REFLECT: +3-4%",
+      "sub_stat_4": "HEALING: +4-5%",
       "rarity": "LEGENDARY",
       "level": "35",
-      "lore": "An intricate iron diadem whose metal is persistently red-hot.",
-      "is_chaotic": ""
+      "lore": "An intricate iron diadem whose metal is persistently red-hot."
     },
     "item_58": {
       "name": "Lady Rihker's Ritual Cloak",
@@ -1091,16 +1051,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +256-273",
-      "main_stat_2": "ENERGY REGEN: +4.4-4.6/s",
-      "main_stat_3": "INT: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "REFLECT: +3-4%",
-      "sub_stat_3": "HEALING: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 7 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.4-4.6/s",
+      "sub_stat_1": "INT: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "REFLECT: +3-4%",
+      "sub_stat_4": "HEALING: +4-5%",
       "rarity": "LEGENDARY",
       "level": "35",
-      "lore": "A silken cloak whose fine trim is preserved with black magic.",
-      "is_chaotic": ""
+      "lore": "A silken cloak whose fine trim is preserved with black magic."
     },
     "item_59": {
       "name": "Lady Rihker's Ritual Robes",
@@ -1109,16 +1068,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +256-273",
-      "main_stat_2": "ENERGY REGEN: +4.4-4.6/s",
-      "main_stat_3": "INT: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "REFLECT: +3-4%",
-      "sub_stat_3": "HEALING: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 7 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.4-4.6/s",
+      "sub_stat_1": "INT: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "REFLECT: +3-4%",
+      "sub_stat_4": "HEALING: +4-5%",
       "rarity": "LEGENDARY",
       "level": "35",
-      "lore": "Thick enchanted robes scorched black and coated with ashes.",
-      "is_chaotic": ""
+      "lore": "Thick enchanted robes scorched black and coated with ashes."
     },
     "item_60": {
       "name": "Lady Rihker's Blackened Treads",
@@ -1127,16 +1085,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +256-273",
-      "main_stat_2": "ENERGY REGEN: +4.4-4.6/s",
-      "main_stat_3": "INT: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "REFLECT: +3-4%",
-      "sub_stat_3": "HEALING: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 7 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.4-4.6/s",
+      "sub_stat_1": "INT: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "REFLECT: +3-4%",
+      "sub_stat_4": "HEALING: +4-5%",
       "rarity": "LEGENDARY",
       "level": "35",
-      "lore": "Searing boots that melt the ground they touch.",
-      "is_chaotic": ""
+      "lore": "Searing boots that melt the ground they touch."
     }
   },
   "sibyl": {
@@ -1158,8 +1115,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "35",
-      "lore": "The ancient crown of the Chapel.",
-      "is_chaotic": ""
+      "lore": "The ancient crown of the Chapel."
     },
     "item_62": {
       "name": "Mistress' Hexed Breastplate",
@@ -1176,8 +1132,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "35",
-      "lore": "The crimson hexed breastplate of The Mistress.",
-      "is_chaotic": ""
+      "lore": "The crimson hexed breastplate of The Mistress."
     },
     "item_63": {
       "name": "Mistress' Torn Skirt",
@@ -1194,8 +1149,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "35",
-      "lore": "The torn skirt of The Mistress.",
-      "is_chaotic": ""
+      "lore": "The torn skirt of The Mistress."
     },
     "item_64": {
       "name": "Mistress' Enchanted Boots",
@@ -1212,8 +1166,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "35",
-      "lore": "The enchanted boots of eternal pain.",
-      "is_chaotic": ""
+      "lore": "The enchanted boots of eternal pain."
     },
     "item_65": {
       "name": "Eternal Agony",
@@ -1222,16 +1175,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 41-42 - 42-45",
-      "main_stat_2": "POISON DMG: +9-10",
-      "main_stat_3": "SLOW: +10-12%",
-      "sub_stat_1": "BLINDING: +8-10%",
-      "sub_stat_2": "PIERCING: +8-10",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +9-10",
+      "sub_stat_2": "SLOW: +10-12%",
+      "sub_stat_3": "BLINDING: +8-10%",
+      "sub_stat_4": "PIERCING: +8-10",
       "rarity": "EPIC",
       "level": "35",
-      "lore": "The gnarled, accursed bow of Mistress Sibyl.",
-      "is_chaotic": ""
+      "lore": "The gnarled, accursed bow of Mistress Sibyl."
     }
   },
   "merida": {
@@ -1253,8 +1205,7 @@
       "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "EPIC",
       "level": "36",
-      "lore": "The face of wrath.",
-      "is_chaotic": ""
+      "lore": "The face of wrath."
     },
     "item_67": {
       "name": "Merida's Overgrown Blouse",
@@ -1271,8 +1222,7 @@
       "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "EPIC",
       "level": "36",
-      "lore": "The bushy yet fabled blouse of the wrathful.",
-      "is_chaotic": ""
+      "lore": "The bushy yet fabled blouse of the wrathful."
     },
     "item_68": {
       "name": "Merida's Fruitful Knickerbockers",
@@ -1289,8 +1239,7 @@
       "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "EPIC",
       "level": "36",
-      "lore": "The glowing Knickerbockers of Merida.",
-      "is_chaotic": ""
+      "lore": "The glowing Knickerbockers of Merida."
     },
     "item_69": {
       "name": "Merida's Thorned Slippers",
@@ -1307,8 +1256,7 @@
       "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "EPIC",
       "level": "36",
-      "lore": "A punishment to insubordinate bandits.",
-      "is_chaotic": ""
+      "lore": "A punishment to insubordinate bandits."
     },
     "item_70": {
       "name": "Death's Whisper",
@@ -1317,16 +1265,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 39-40 - 40-43",
-      "main_stat_2": "POISON DMG: +9-10",
-      "main_stat_3": "EXECUTE: +8-10%",
-      "sub_stat_1": "PIERCING: +8-10",
-      "sub_stat_2": "BLEEDING: +8-10%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +9-10",
+      "sub_stat_2": "EXECUTE: +8-10%",
+      "sub_stat_3": "PIERCING: +8-10",
+      "sub_stat_4": "BLEEDING: +8-10%",
       "rarity": "EPIC",
       "level": "36",
-      "lore": "The accurate, deadly bow of Merida.",
-      "is_chaotic": ""
+      "lore": "The accurate, deadly bow of Merida."
     }
   },
   "nest_queen": {
@@ -1338,18 +1285,17 @@
       "tier": "2",
       "img": "t2_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 34-35 - 35-37",
-      "main_stat_2": "ICE DMG: +7-8",
-      "main_stat_3": "CLEAVE: +10-12%",
-      "sub_stat_1": "PIERCING: +10-12",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +7-8",
+      "sub_stat_2": "CLEAVE: +10-12%",
+      "sub_stat_3": "PIERCING: +10-12",
       "sub_stat_4": "",
       "rarity": "EPIC",
       "level": "36",
-      "lore": "The sharp fang of a powerful spider queen, tipped with poison.",
-      "is_chaotic": ""
+      "lore": "The sharp fang of a powerful spider queen, tipped with poison."
     },
     "item_72": {
       "name": "Queen's Looted Headgear",
@@ -1366,8 +1312,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "36",
-      "lore": "A rare helm found holding some spider eggs.",
-      "is_chaotic": ""
+      "lore": "A rare helm found holding some spider eggs."
     },
     "item_73": {
       "name": "Queen's Looted Chainbody",
@@ -1384,8 +1329,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "36",
-      "lore": "The prized chainmal of a foolish hero, stolen by the Nest Queen.",
-      "is_chaotic": ""
+      "lore": "The prized chainmal of a foolish hero, stolen by the Nest Queen."
     },
     "item_74": {
       "name": "Queen's Looted Leggings",
@@ -1402,8 +1346,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "36",
-      "lore": "The leggings of an ancient adventurer, gifted to the Nest Queen.",
-      "is_chaotic": ""
+      "lore": "The leggings of an ancient adventurer, gifted to the Nest Queen."
     },
     "item_75": {
       "name": "Queen's Looted Boots",
@@ -1420,8 +1363,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "36",
-      "lore": "Long lost boots of an undead noble, scavenged by the Nest Queen.",
-      "is_chaotic": ""
+      "lore": "Long lost boots of an undead noble, scavenged by the Nest Queen."
     }
   },
   "shog": {
@@ -1435,16 +1377,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 33-36 - 36-38",
-      "main_stat_2": "FIRE DMG: +8-9",
-      "main_stat_3": "CRITICAL HIT: +7-8%",
-      "sub_stat_1": "VS. MONSTERS: +12-15%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +8-9",
+      "sub_stat_2": "CRITICAL HIT: +7-8%",
+      "sub_stat_3": "VS. MONSTERS: +12-15%",
       "sub_stat_4": "",
       "rarity": "RARE",
       "level": "36",
-      "lore": "A waraxe faceted with marvelous gems mined by hundreds of lost souls.",
-      "is_chaotic": ""
+      "lore": "A waraxe faceted with marvelous gems mined by hundreds of lost souls."
     },
     "item_77": {
       "name": "Miner's Helmet",
@@ -1453,16 +1394,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +207-224",
-      "main_stat_2": "ENERGY REGEN: +4.13-4.31/s",
-      "main_stat_3": "STR: +200-225",
-      "sub_stat_1": "VIT: +200-225",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ELEMENTAL RESISTANCE: +12-15%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 6",
+      "main_stat_3": "ENERGY REGEN: +4.13-4.31/s",
+      "sub_stat_1": "STR: +200-225",
+      "sub_stat_2": "VIT: +200-225",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ELEMENTAL RESISTANCE: +12-15%",
       "rarity": "RARE",
       "level": "36",
-      "lore": "A mesh helmet with a vibrant emerald, pulled from the depths of Al Sahra.",
-      "is_chaotic": ""
+      "lore": "A mesh helmet with a vibrant emerald, pulled from the depths of Al Sahra."
     },
     "item_78": {
       "name": "Overseer's Hauberk",
@@ -1471,16 +1411,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +207-224",
-      "main_stat_2": "ENERGY REGEN: +4.13-4.31/s",
-      "main_stat_3": "STR: +200-225",
-      "sub_stat_1": "VIT: +200-225",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ELEMENTAL RESISTANCE: +12-15%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 6",
+      "main_stat_3": "ENERGY REGEN: +4.13-4.31/s",
+      "sub_stat_1": "STR: +200-225",
+      "sub_stat_2": "VIT: +200-225",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ELEMENTAL RESISTANCE: +12-15%",
       "rarity": "RARE",
       "level": "36",
-      "lore": "An interweaved shirt of iron rings.",
-      "is_chaotic": ""
+      "lore": "An interweaved shirt of iron rings."
     },
     "item_79": {
       "name": "Overseer's Tassets",
@@ -1489,16 +1428,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +207-224",
-      "main_stat_2": "ENERGY REGEN: +4.13-4.31/s",
-      "main_stat_3": "STR: +200-225",
-      "sub_stat_1": "VIT: +200-225",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ELEMENTAL RESISTANCE: +12-15%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 6",
+      "main_stat_3": "ENERGY REGEN: +4.13-4.31/s",
+      "sub_stat_1": "STR: +200-225",
+      "sub_stat_2": "VIT: +200-225",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ELEMENTAL RESISTANCE: +12-15%",
       "rarity": "RARE",
       "level": "36",
-      "lore": "Plates structured for protection.",
-      "is_chaotic": ""
+      "lore": "Plates structured for protection."
     },
     "item_80": {
       "name": "Overseer's Sabatons",
@@ -1507,16 +1445,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +207-224",
-      "main_stat_2": "ENERGY REGEN: +4.13-4.31/s",
-      "main_stat_3": "STR: +200-225",
-      "sub_stat_1": "VIT: +200-225",
-      "sub_stat_2": "BLOCK: +3-4%",
-      "sub_stat_3": "ELEMENTAL RESISTANCE: +12-15%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 6",
+      "main_stat_3": "ENERGY REGEN: +4.13-4.31/s",
+      "sub_stat_1": "STR: +200-225",
+      "sub_stat_2": "VIT: +200-225",
+      "sub_stat_3": "BLOCK: +3-4%",
+      "sub_stat_4": "ELEMENTAL RESISTANCE: +12-15%",
       "rarity": "RARE",
       "level": "36",
-      "lore": "Heavy boots, fit for the Overseer.",
-      "is_chaotic": ""
+      "lore": "Heavy boots, fit for the Overseer."
     }
   },
   "copjak": {
@@ -1530,16 +1467,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 39-40 - 40-42",
-      "main_stat_2": "SHATTER: +10-12%",
-      "main_stat_3": "CRITICAL HIT: +10-12%",
-      "sub_stat_1": "CRUSHING: +10-12%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "SHATTER: +10-12%",
+      "sub_stat_2": "CRITICAL HIT: +10-12%",
+      "sub_stat_3": "CRUSHING: +10-12%",
       "sub_stat_4": "",
       "rarity": "EPIC",
       "level": "38",
-      "lore": "The axe made to unite Dark Oak.",
-      "is_chaotic": ""
+      "lore": "The axe made to unite Dark Oak."
     },
     "item_82": {
       "name": "Cop'Jak's Crude Crown",
@@ -1548,16 +1484,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +246-263",
-      "main_stat_2": "ENERGY REGEN: +4.31-4.5/s",
-      "main_stat_3": "STR: +200-225",
-      "sub_stat_1": "VIT: +200-225",
-      "sub_stat_2": "THORNS: +5-6%",
-      "sub_stat_3": "BLOCK: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.31-4.5/s",
+      "sub_stat_1": "STR: +200-225",
+      "sub_stat_2": "VIT: +200-225",
+      "sub_stat_3": "THORNS: +5-6%",
+      "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "38",
-      "lore": "Cop'Jak's attempt of a royal crown.",
-      "is_chaotic": ""
+      "lore": "Cop'Jak's attempt of a royal crown."
     },
     "item_83": {
       "name": "Cop'Jak's Heavy Chainmail Chestpiece",
@@ -1566,16 +1501,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +246-263",
-      "main_stat_2": "ENERGY REGEN: +4.31-4.5/s",
-      "main_stat_3": "STR: +200-225",
-      "sub_stat_1": "VIT: +200-225",
-      "sub_stat_2": "THORNS: +5-6%",
-      "sub_stat_3": "BLOCK: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.31-4.5/s",
+      "sub_stat_1": "STR: +200-225",
+      "sub_stat_2": "VIT: +200-225",
+      "sub_stat_3": "THORNS: +5-6%",
+      "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "38",
-      "lore": "A bad fit, made for the broad chests of trolls.",
-      "is_chaotic": ""
+      "lore": "A bad fit, made for the broad chests of trolls."
     },
     "item_84": {
       "name": "Cop'Jak's Chainlinked Leggings",
@@ -1584,16 +1518,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +246-263",
-      "main_stat_2": "ENERGY REGEN: +4.31-4.5/s",
-      "main_stat_3": "STR: +200-225",
-      "sub_stat_1": "VIT: +200-225",
-      "sub_stat_2": "THORNS: +5-6%",
-      "sub_stat_3": "BLOCK: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.31-4.5/s",
+      "sub_stat_1": "STR: +200-225",
+      "sub_stat_2": "VIT: +200-225",
+      "sub_stat_3": "THORNS: +5-6%",
+      "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "38",
-      "lore": "Large leggings that have been worn in many wars.",
-      "is_chaotic": ""
+      "lore": "Large leggings that have been worn in many wars."
     },
     "item_85": {
       "name": "Cop'Jak's Chainmail Boots",
@@ -1602,16 +1535,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +246-263",
-      "main_stat_2": "ENERGY REGEN: +4.31-4.5/s",
-      "main_stat_3": "STR: +200-225",
-      "sub_stat_1": "VIT: +200-225",
-      "sub_stat_2": "THORNS: +5-6%",
-      "sub_stat_3": "BLOCK: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 6 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.31-4.5/s",
+      "sub_stat_1": "STR: +200-225",
+      "sub_stat_2": "VIT: +200-225",
+      "sub_stat_3": "THORNS: +5-6%",
+      "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "38",
-      "lore": "Spiked trollish chainmail boots.",
-      "is_chaotic": ""
+      "lore": "Spiked trollish chainmail boots."
     }
   },
   "taylor": {
@@ -1625,16 +1557,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 40-42 - 42-44",
-      "main_stat_2": "PURE DMG: +8-9",
-      "main_stat_3": "CRUSHING: +8-10%",
-      "sub_stat_1": "CRITICAL HIT: +8-10%",
-      "sub_stat_2": "VS. PLAYERS: +12-15%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +8-9",
+      "sub_stat_2": "CRUSHING: +8-10%",
+      "sub_stat_3": "CRITICAL HIT: +8-10%",
+      "sub_stat_4": "VS. PLAYERS: +12-15%",
       "rarity": "EPIC",
       "level": "38",
-      "lore": "A timeless morningstar, forged by a legendary blacksmith.",
-      "is_chaotic": ""
+      "lore": "A timeless morningstar, forged by a legendary blacksmith."
     },
     "item_87": {
       "name": "Royal Helm of Helmchen",
@@ -1651,8 +1582,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "38",
-      "lore": "A regal helmet passed down by The Lords of Helmchen.",
-      "is_chaotic": ""
+      "lore": "A regal helmet passed down by The Lords of Helmchen."
     },
     "item_88": {
       "name": "Lord Taylor's Platemail",
@@ -1669,8 +1599,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "38",
-      "lore": "A chestplate that cannot hide Lord Taylor's hunger.",
-      "is_chaotic": ""
+      "lore": "A chestplate that cannot hide Lord Taylor's hunger."
     },
     "item_89": {
       "name": "Lord Taylor's Leggings",
@@ -1687,8 +1616,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "38",
-      "lore": "Leggings fit for an everlasting lord.",
-      "is_chaotic": ""
+      "lore": "Leggings fit for an everlasting lord."
     },
     "item_90": {
       "name": "Lord Taylor's Shattered Boots",
@@ -1705,8 +1633,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "38",
-      "lore": "Boots in disrepair, but still fit for a lord.",
-      "is_chaotic": ""
+      "lore": "Boots in disrepair, but still fit for a lord."
     }
   },
   "ultimate_rihker": {
@@ -1718,18 +1645,17 @@
       "tier": "2",
       "img": "t2_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 41-43 - 43-46",
-      "main_stat_2": "FIRE DMG: +8-9",
-      "main_stat_3": "CLEAVE: +7-8%",
-      "sub_stat_1": "LIFE STEAL: +10-12%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +8-9",
+      "sub_stat_2": "CLEAVE: +7-8%",
+      "sub_stat_3": "LIFE STEAL: +10-12%",
       "sub_stat_4": "",
       "rarity": "LEGENDARY",
       "level": "40",
-      "lore": "A scorched scythe etched with sapping runes.",
-      "is_chaotic": ""
+      "lore": "A scorched scythe etched with sapping runes."
     },
     "item_92": {
       "name": "Lady Rihker's Blistering Crown",
@@ -1738,16 +1664,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +286-303",
-      "main_stat_2": "ENERGY REGEN: +4.5-4.69/s",
-      "main_stat_3": "INT: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "REFLECT: +3-4%",
-      "sub_stat_3": "HEALING: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 7 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.5-4.69/s",
+      "sub_stat_1": "INT: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "REFLECT: +3-4%",
+      "sub_stat_4": "HEALING: +4-5%",
       "rarity": "LEGENDARY",
       "level": "40",
-      "lore": "An intricate iron diadem whose metal is persistently red-hot.",
-      "is_chaotic": ""
+      "lore": "An intricate iron diadem whose metal is persistently red-hot."
     },
     "item_93": {
       "name": "Lady Rihker's Ritual Cloak",
@@ -1756,16 +1681,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +286-303",
-      "main_stat_2": "ENERGY REGEN: +4.5-4.69/s",
-      "main_stat_3": "INT: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "REFLECT: +3-4%",
-      "sub_stat_3": "HEALING: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 7 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.5-4.69/s",
+      "sub_stat_1": "INT: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "REFLECT: +3-4%",
+      "sub_stat_4": "HEALING: +4-5%",
       "rarity": "LEGENDARY",
       "level": "40",
-      "lore": "A silken cloak whose fine trim is preserved with black magic.",
-      "is_chaotic": ""
+      "lore": "A silken cloak whose fine trim is preserved with black magic."
     },
     "item_94": {
       "name": "Lady Rihker's Ritual Robes",
@@ -1774,16 +1698,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +286-303",
-      "main_stat_2": "ENERGY REGEN: +4.5-4.69/s",
-      "main_stat_3": "INT: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "REFLECT: +3-4%",
-      "sub_stat_3": "HEALING: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 7 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.5-4.69/s",
+      "sub_stat_1": "INT: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "REFLECT: +3-4%",
+      "sub_stat_4": "HEALING: +4-5%",
       "rarity": "LEGENDARY",
       "level": "40",
-      "lore": "Thick enchanted robes scorched black and coated with ashes.",
-      "is_chaotic": ""
+      "lore": "Thick enchanted robes scorched black and coated with ashes."
     },
     "item_95": {
       "name": "Lady Rihker's Blackened Treads",
@@ -1792,16 +1715,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +286-303",
-      "main_stat_2": "ENERGY REGEN: +4.5-4.69/s",
-      "main_stat_3": "INT: +200-225",
-      "sub_stat_1": "STR: +200-225",
-      "sub_stat_2": "REFLECT: +3-4%",
-      "sub_stat_3": "HEALING: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 7 - 7",
+      "main_stat_3": "ENERGY REGEN: +4.5-4.69/s",
+      "sub_stat_1": "INT: +200-225",
+      "sub_stat_2": "STR: +200-225",
+      "sub_stat_3": "REFLECT: +3-4%",
+      "sub_stat_4": "HEALING: +4-5%",
       "rarity": "LEGENDARY",
       "level": "40",
-      "lore": "Searing boots that melt the ground they touch.",
-      "is_chaotic": ""
+      "lore": "Searing boots that melt the ground they touch."
     }
   },
   "ultimate_sibyl": {
@@ -1823,8 +1745,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "LEGENDARY",
       "level": "40",
-      "lore": "The ancient crown of the Chapel.",
-      "is_chaotic": ""
+      "lore": "The ancient crown of the Chapel."
     },
     "item_97": {
       "name": "Mistress' Hexed Breastplate",
@@ -1841,8 +1762,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "LEGENDARY",
       "level": "40",
-      "lore": "The crimson hexed breastplate of The Mistress.",
-      "is_chaotic": ""
+      "lore": "The crimson hexed breastplate of The Mistress."
     },
     "item_98": {
       "name": "Mistress' Torn Skirt",
@@ -1859,8 +1779,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "LEGENDARY",
       "level": "40",
-      "lore": "The torn skirt of The Mistress.",
-      "is_chaotic": ""
+      "lore": "The torn skirt of The Mistress."
     },
     "item_99": {
       "name": "Mistress' Enchanted Boots",
@@ -1877,8 +1796,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "LEGENDARY",
       "level": "40",
-      "lore": "The enchanted boots of eternal pain.",
-      "is_chaotic": ""
+      "lore": "The enchanted boots of eternal pain."
     },
     "item_100": {
       "name": "Eternal Agony",
@@ -1887,16 +1805,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 44-47 - 47-50",
-      "main_stat_2": "POISON DMG: +9-10",
-      "main_stat_3": "SLOW: +10-12%",
-      "sub_stat_1": "BLINDING: +8-10%",
-      "sub_stat_2": "PIERCING: +8-10",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +9-10",
+      "sub_stat_2": "SLOW: +10-12%",
+      "sub_stat_3": "BLINDING: +8-10%",
+      "sub_stat_4": "PIERCING: +8-10",
       "rarity": "LEGENDARY",
       "level": "40",
-      "lore": "The gnarled, accursed bow of Mistress Sibyl.",
-      "is_chaotic": ""
+      "lore": "The gnarled, accursed bow of Mistress Sibyl."
     }
   },
   "ragnar": {
@@ -1910,16 +1827,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 74-80 - 80-84",
-      "main_stat_2": "POISON DMG: +16-18",
-      "main_stat_3": "ACCURACY: +12-15%",
-      "sub_stat_1": "CRUSHING: +12-15%",
-      "sub_stat_2": "VS. PLAYERS: +15-20%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +16-18",
+      "sub_stat_2": "ACCURACY: +12-15%",
+      "sub_stat_3": "CRUSHING: +12-15%",
+      "sub_stat_4": "VS. PLAYERS: +15-20%",
       "rarity": "RARE",
       "level": "48",
-      "lore": "Wielded by the great Ragnar. This mace has ended many that dared to question him.",
-      "is_chaotic": ""
+      "lore": "Wielded by the great Ragnar. This mace has ended many that dared to question him."
     },
     "item_102": {
       "name": "Ironclad Headguard",
@@ -1928,16 +1844,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +505-544",
-      "main_stat_2": "ENERGY REGEN: +5.06-5.25/s",
-      "main_stat_3": "VIT: +225-250",
-      "sub_stat_1": "STR: +225-250",
-      "sub_stat_2": "BLOCK: +4-5%",
-      "sub_stat_3": "REFLECT: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 9 - 10",
+      "main_stat_3": "ENERGY REGEN: +5.06-5.25/s",
+      "sub_stat_1": "VIT: +225-250",
+      "sub_stat_2": "STR: +225-250",
+      "sub_stat_3": "BLOCK: +4-5%",
+      "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "48",
-      "lore": "The durability of this headpiece is said to rival that of the great golems of Avalon.",
-      "is_chaotic": ""
+      "lore": "The durability of this headpiece is said to rival that of the great golems of Avalon."
     },
     "item_103": {
       "name": "Ironclad Breastplate",
@@ -1946,16 +1861,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +505-544",
-      "main_stat_2": "ENERGY REGEN: +5.06-5.25/s",
-      "main_stat_3": "VIT: +225-250",
-      "sub_stat_1": "STR: +225-250",
-      "sub_stat_2": "BLOCK: +4-5%",
-      "sub_stat_3": "REFLECT: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 9 - 10",
+      "main_stat_3": "ENERGY REGEN: +5.06-5.25/s",
+      "sub_stat_1": "VIT: +225-250",
+      "sub_stat_2": "STR: +225-250",
+      "sub_stat_3": "BLOCK: +4-5%",
+      "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "48",
-      "lore": "Not even the mightiest of attacks have been capable of fully penetrating through this reinforced breastplate.",
-      "is_chaotic": ""
+      "lore": "Not even the mightiest of attacks have been capable of fully penetrating through this reinforced breastplate."
     },
     "item_104": {
       "name": "Ironclad Leggings",
@@ -1964,16 +1878,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +505-544",
-      "main_stat_2": "ENERGY REGEN: +5.06-5.25/s",
-      "main_stat_3": "VIT: +225-250",
-      "sub_stat_1": "STR: +225-250",
-      "sub_stat_2": "BLOCK: +4-5%",
-      "sub_stat_3": "REFLECT: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 9 - 10",
+      "main_stat_3": "ENERGY REGEN: +5.06-5.25/s",
+      "sub_stat_1": "VIT: +225-250",
+      "sub_stat_2": "STR: +225-250",
+      "sub_stat_3": "BLOCK: +4-5%",
+      "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "48",
-      "lore": "Although worn throughout countless battles, not even a scratch can be seen on these fortified leggings.",
-      "is_chaotic": ""
+      "lore": "Although worn throughout countless battles, not even a scratch can be seen on these fortified leggings."
     },
     "item_105": {
       "name": "Ironclad Walkers",
@@ -1982,16 +1895,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +505-544",
-      "main_stat_2": "ENERGY REGEN: +5.06-5.25/s",
-      "main_stat_3": "VIT: +225-250",
-      "sub_stat_1": "STR: +225-250",
-      "sub_stat_2": "BLOCK: +4-5%",
-      "sub_stat_3": "REFLECT: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 9 - 10",
+      "main_stat_3": "ENERGY REGEN: +5.06-5.25/s",
+      "sub_stat_1": "VIT: +225-250",
+      "sub_stat_2": "STR: +225-250",
+      "sub_stat_3": "BLOCK: +4-5%",
+      "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "48",
-      "lore": "These boots offer a sturdy foundation to tread across the entire savannah.",
-      "is_chaotic": ""
+      "lore": "These boots offer a sturdy foundation to tread across the entire savannah."
     }
   },
   "pyro": {
@@ -2005,16 +1917,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 72-78 - 78-82",
-      "main_stat_2": "FIRE DMG: +16-18",
-      "main_stat_3": "CRITICAL HIT: +12-15%",
-      "sub_stat_1": "VS. MONSTERS: +10-12%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +16-18",
+      "sub_stat_2": "CRITICAL HIT: +12-15%",
+      "sub_stat_3": "VS. MONSTERS: +10-12%",
       "sub_stat_4": "",
       "rarity": "RARE",
       "level": "50",
-      "lore": "A molten axe which never seems to cool.",
-      "is_chaotic": ""
+      "lore": "A molten axe which never seems to cool."
     },
     "item_107": {
       "name": "Pyro's Sturdy Helmet",
@@ -2023,16 +1934,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +516-556",
-      "main_stat_2": "ENERGY REGEN: +5.06-5.25/s",
-      "main_stat_3": "STR: +225-250",
-      "sub_stat_1": "INT: +225-250",
-      "sub_stat_2": "ELEMENTAL RESISTANCE: +15-20%",
-      "sub_stat_3": "REFLECT: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 8 - 9",
+      "main_stat_3": "ENERGY REGEN: +5.06-5.25/s",
+      "sub_stat_1": "STR: +225-250",
+      "sub_stat_2": "INT: +225-250",
+      "sub_stat_3": "ELEMENTAL RESISTANCE: +15-20%",
+      "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "50",
-      "lore": "It still looks new, disregarding some dents on the side.",
-      "is_chaotic": ""
+      "lore": "It still looks new, disregarding some dents on the side."
     },
     "item_108": {
       "name": "Pyro's Everlasting Tunic",
@@ -2041,16 +1951,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +516-556",
-      "main_stat_2": "ENERGY REGEN: +5.06-5.25/s",
-      "main_stat_3": "STR: +225-250",
-      "sub_stat_1": "INT: +225-250",
-      "sub_stat_2": "ELEMENTAL RESISTANCE: +15-20%",
-      "sub_stat_3": "REFLECT: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 8 - 9",
+      "main_stat_3": "ENERGY REGEN: +5.06-5.25/s",
+      "sub_stat_1": "STR: +225-250",
+      "sub_stat_2": "INT: +225-250",
+      "sub_stat_3": "ELEMENTAL RESISTANCE: +15-20%",
+      "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "50",
-      "lore": "It's a miracle this tunic has survived this long.",
-      "is_chaotic": ""
+      "lore": "It's a miracle this tunic has survived this long."
     },
     "item_109": {
       "name": "Pyro's Loaded Leggings",
@@ -2059,16 +1968,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +516-556",
-      "main_stat_2": "ENERGY REGEN: +5.06-5.25/s",
-      "main_stat_3": "STR: +225-250",
-      "sub_stat_1": "INT: +225-250",
-      "sub_stat_2": "ELEMENTAL RESISTANCE: +15-20%",
-      "sub_stat_3": "REFLECT: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 8 - 9",
+      "main_stat_3": "ENERGY REGEN: +5.06-5.25/s",
+      "sub_stat_1": "STR: +225-250",
+      "sub_stat_2": "INT: +225-250",
+      "sub_stat_3": "ELEMENTAL RESISTANCE: +15-20%",
+      "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "50",
-      "lore": "Each pocket has some sort of explosive remnant patched inside.",
-      "is_chaotic": ""
+      "lore": "Each pocket has some sort of explosive remnant patched inside."
     },
     "item_110": {
       "name": "Pyro's Ash-Filled Boots",
@@ -2077,16 +1985,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +516-556",
-      "main_stat_2": "ENERGY REGEN: +5.06-5.25/s",
-      "main_stat_3": "STR: +225-250",
-      "sub_stat_1": "INT: +225-250",
-      "sub_stat_2": "ELEMENTAL RESISTANCE: +15-20%",
-      "sub_stat_3": "REFLECT: +3-4%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 8 - 9",
+      "main_stat_3": "ENERGY REGEN: +5.06-5.25/s",
+      "sub_stat_1": "STR: +225-250",
+      "sub_stat_2": "INT: +225-250",
+      "sub_stat_3": "ELEMENTAL RESISTANCE: +15-20%",
+      "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "50",
-      "lore": "Warm, explosive ash can be felt tucked in the toe caps.",
-      "is_chaotic": ""
+      "lore": "Warm, explosive ash can be felt tucked in the toe caps."
     }
   },
   "yakhel": {
@@ -2108,8 +2015,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "RARE",
       "level": "50",
-      "lore": "A horn is broken off due to a previous battle.",
-      "is_chaotic": ""
+      "lore": "A horn is broken off due to a previous battle."
     },
     "item_112": {
       "name": "Yakhel's Beaten Breastplate",
@@ -2126,8 +2032,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "RARE",
       "level": "50",
-      "lore": "The beaten plate of a fearsome raider.",
-      "is_chaotic": ""
+      "lore": "The beaten plate of a fearsome raider."
     },
     "item_113": {
       "name": "Yakhel's Bloodied Leggings",
@@ -2144,8 +2049,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "RARE",
       "level": "50",
-      "lore": "The bloodstained leggings of a fearsome raider.",
-      "is_chaotic": ""
+      "lore": "The bloodstained leggings of a fearsome raider."
     },
     "item_114": {
       "name": "Yahkel's Dusty Footwear",
@@ -2162,8 +2066,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "RARE",
       "level": "50",
-      "lore": "Hundreds of skeletons have been laid to rest underneath these boots.",
-      "is_chaotic": ""
+      "lore": "Hundreds of skeletons have been laid to rest underneath these boots."
     },
     "item_115": {
       "name": "Yakhel's Haunted Bow",
@@ -2172,16 +2075,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 79-85 - 85-90",
-      "main_stat_2": "FIRE DMG: +17-19",
-      "main_stat_3": "PIERCING: +10-12",
-      "sub_stat_1": "BLEEDING: +6-8%",
-      "sub_stat_2": "EXECUTE: +8-10%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +17-19",
+      "sub_stat_2": "PIERCING: +10-12",
+      "sub_stat_3": "BLEEDING: +6-8%",
+      "sub_stat_4": "EXECUTE: +8-10%",
       "rarity": "RARE",
       "level": "50",
-      "lore": "The cries of the battlefield still ring within the bowstring.",
-      "is_chaotic": ""
+      "lore": "The cries of the battlefield still ring within the bowstring."
     }
   },
   "kog": {
@@ -2195,16 +2097,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 87-92 - 92-97",
-      "main_stat_2": "FIRE DMG: +16-18",
-      "main_stat_3": "CRITICAL HIT: +8-10%",
-      "sub_stat_1": "LIFE STEAL: +8-10%",
-      "sub_stat_2": "VS. MONSTERS: +10-12%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +16-18",
+      "sub_stat_2": "CRITICAL HIT: +8-10%",
+      "sub_stat_3": "LIFE STEAL: +8-10%",
+      "sub_stat_4": "VS. MONSTERS: +10-12%",
       "rarity": "EPIC",
       "level": "52",
-      "lore": "A broad leeching mace once wielded by the King of Greed.",
-      "is_chaotic": ""
+      "lore": "A broad leeching mace once wielded by the King of Greed."
     },
     "item_117": {
       "name": "The Crown of Greed",
@@ -2221,8 +2122,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "EPIC",
       "level": "52",
-      "lore": "The encrusted crown of the Goblin King.",
-      "is_chaotic": ""
+      "lore": "The encrusted crown of the Goblin King."
     },
     "item_118": {
       "name": "The Platemail of Greed",
@@ -2239,8 +2139,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "EPIC",
       "level": "52",
-      "lore": "Gold and emerald lines run through this strong platemail.",
-      "is_chaotic": ""
+      "lore": "Gold and emerald lines run through this strong platemail."
     },
     "item_119": {
       "name": "The Leggings of Greed",
@@ -2257,8 +2156,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "EPIC",
       "level": "52",
-      "lore": "The fine polished leggings of the Goblin King.",
-      "is_chaotic": ""
+      "lore": "The fine polished leggings of the Goblin King."
     },
     "item_120": {
       "name": "The Boots of Greed",
@@ -2275,8 +2173,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "EPIC",
       "level": "52",
-      "lore": "A pair of goblin boots with rich leather binding.",
-      "is_chaotic": ""
+      "lore": "A pair of goblin boots with rich leather binding."
     }
   },
   "burick": {
@@ -2290,16 +2187,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 91-95 - 95-100",
-      "main_stat_2": "FIRE DMG: +16-18",
-      "main_stat_3": "SHATTER: +10-12%",
-      "sub_stat_1": "CRITICAL HIT: +10-12%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +16-18",
+      "sub_stat_2": "SHATTER: +10-12%",
+      "sub_stat_3": "CRITICAL HIT: +10-12%",
       "sub_stat_4": "",
       "rarity": "LEGENDARY",
       "level": "55",
-      "lore": "An axe stained crimson red with the blood of fallen innocents.",
-      "is_chaotic": ""
+      "lore": "An axe stained crimson red with the blood of fallen innocents."
     },
     "item_122": {
       "name": "Burick's Black Full Helmet",
@@ -2316,8 +2212,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "LEGENDARY",
       "level": "55",
-      "lore": "A dented and bloodstained helmet.",
-      "is_chaotic": ""
+      "lore": "A dented and bloodstained helmet."
     },
     "item_123": {
       "name": "Burick's Black Iron Chestplate",
@@ -2334,8 +2229,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "LEGENDARY",
       "level": "55",
-      "lore": "A thick, hard and black piece of iron armour.",
-      "is_chaotic": ""
+      "lore": "A thick, hard and black piece of iron armour."
     },
     "item_124": {
       "name": "Burick's Black Platemail Leggings",
@@ -2352,8 +2246,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "LEGENDARY",
       "level": "55",
-      "lore": "Made for long powerful legs which offer good protection.",
-      "is_chaotic": ""
+      "lore": "Made for long powerful legs which offer good protection."
     },
     "item_125": {
       "name": "Burick's Black Platemail Boots",
@@ -2370,8 +2263,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "LEGENDARY",
       "level": "55",
-      "lore": "Spiked black boots clad in iron.",
-      "is_chaotic": ""
+      "lore": "Spiked black boots clad in iron."
     }
   },
   "burick_high_priest": {
@@ -2383,18 +2275,17 @@
       "tier": "3",
       "img": "t3_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 82-87 - 87-91",
-      "main_stat_2": "POISON DMG: +15-17",
-      "main_stat_3": "CRITICAL HIT: +10-12%",
-      "sub_stat_1": "LIFE STEAL: +10-12%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +15-17",
+      "sub_stat_2": "CRITICAL HIT: +10-12%",
+      "sub_stat_3": "LIFE STEAL: +10-12%",
       "sub_stat_4": "",
       "rarity": "EPIC",
       "level": "55",
-      "lore": "The scythe of Rejuvenation.",
-      "is_chaotic": ""
+      "lore": "The scythe of Rejuvenation."
     },
     "item_127": {
       "name": "The High Priest's Dark Hood",
@@ -2411,8 +2302,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "55",
-      "lore": "Crafted through the absorption of his enemies.",
-      "is_chaotic": ""
+      "lore": "Crafted through the absorption of his enemies."
     },
     "item_128": {
       "name": "The High Priest's Gilded Robe",
@@ -2429,8 +2319,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "55",
-      "lore": "Golden threads line The High Priest\u2019s Robe.",
-      "is_chaotic": ""
+      "lore": "Golden threads line The High Priest’s Robe."
     },
     "item_129": {
       "name": "The High Priest's Belt",
@@ -2447,8 +2336,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "55",
-      "lore": "The enshrined belt of The High Priest.",
-      "is_chaotic": ""
+      "lore": "The enshrined belt of The High Priest."
     },
     "item_130": {
       "name": "The High Priest's Boots",
@@ -2465,8 +2353,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "55",
-      "lore": "The nimble boots of The High Priest.",
-      "is_chaotic": ""
+      "lore": "The nimble boots of The High Priest."
     }
   },
   "burick_warden": {
@@ -2480,16 +2367,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 90-95 - 95-100",
-      "main_stat_2": "PURE DMG: +16-18",
-      "main_stat_3": "ICE DMG: +16-18",
-      "sub_stat_1": "SHATTER: +6-8%",
-      "sub_stat_2": "CRUSHING: +6-8%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +16-18",
+      "sub_stat_2": "ICE DMG: +16-18",
+      "sub_stat_3": "SHATTER: +6-8%",
+      "sub_stat_4": "CRUSHING: +6-8%",
       "rarity": "EPIC",
       "level": "55",
-      "lore": "Forged with malevolent energy, leaving victims in a state of despair.",
-      "is_chaotic": ""
+      "lore": "Forged with malevolent energy, leaving victims in a state of despair."
     },
     "item_132": {
       "name": "Helm of Despair",
@@ -2506,8 +2392,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "55",
-      "lore": "A glimspe of the suffering caused by the Warden.",
-      "is_chaotic": ""
+      "lore": "A glimspe of the suffering caused by the Warden."
     },
     "item_133": {
       "name": "Warden's Cruel Carapace",
@@ -2524,8 +2409,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "55",
-      "lore": "Stained with the essense of brutality.",
-      "is_chaotic": ""
+      "lore": "Stained with the essense of brutality."
     },
     "item_134": {
       "name": "Warden's Legguards",
@@ -2542,8 +2426,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "55",
-      "lore": "Unstoppable resilience against those dwelling.",
-      "is_chaotic": ""
+      "lore": "Unstoppable resilience against those dwelling."
     },
     "item_135": {
       "name": "Warden's Stide",
@@ -2560,8 +2443,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "55",
-      "lore": "Imbued with sinister energies of the Varenglade.",
-      "is_chaotic": ""
+      "lore": "Imbued with sinister energies of the Varenglade."
     }
   },
   "zion": {
@@ -2575,16 +2457,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 74-80 - 80-84",
-      "main_stat_2": "PURE DMG: +14-16",
-      "main_stat_3": "PIERCING: +8-10",
-      "sub_stat_1": "LIFE STEAL: +10-12%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +14-16",
+      "sub_stat_2": "PIERCING: +8-10",
+      "sub_stat_3": "LIFE STEAL: +10-12%",
       "sub_stat_4": "",
       "rarity": "EPIC",
       "level": "57",
-      "lore": "A powerful sword enhanced with the soul of the Skeleton King.",
-      "is_chaotic": ""
+      "lore": "A powerful sword enhanced with the soul of the Skeleton King."
     },
     "item_137": {
       "name": "The Soul Crown",
@@ -2601,8 +2482,7 @@
       "sub_stat_4": "HEALING: +4-5%",
       "rarity": "EPIC",
       "level": "57",
-      "lore": "A shadowy transparent crown.",
-      "is_chaotic": ""
+      "lore": "A shadowy transparent crown."
     },
     "item_138": {
       "name": "Zion's Soul-Fused Armor",
@@ -2619,8 +2499,7 @@
       "sub_stat_4": "HEALING: +4-5%",
       "rarity": "EPIC",
       "level": "57",
-      "lore": "Armor possessed with the spirits of the Skeleton King's servants.",
-      "is_chaotic": ""
+      "lore": "Armor possessed with the spirits of the Skeleton King's servants."
     },
     "item_139": {
       "name": "Zion's Spiritual Leggings",
@@ -2637,8 +2516,7 @@
       "sub_stat_4": "HEALING: +4-5%",
       "rarity": "EPIC",
       "level": "57",
-      "lore": "Resistant to the most powerful of strikes.",
-      "is_chaotic": ""
+      "lore": "Resistant to the most powerful of strikes."
     },
     "item_140": {
       "name": "Zion's Radiant Boots",
@@ -2655,8 +2533,7 @@
       "sub_stat_4": "HEALING: +4-5%",
       "rarity": "EPIC",
       "level": "57",
-      "lore": "The shining boots of an undead king.",
-      "is_chaotic": ""
+      "lore": "The shining boots of an undead king."
     }
   },
   "azemar": {
@@ -2670,16 +2547,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 81-85 - 85-89",
-      "main_stat_2": "PURE DMG: +14-16",
-      "main_stat_3": "ACCURACY: +8-10%",
-      "sub_stat_1": "CRITICAL HIT: +7-8%",
-      "sub_stat_2": "EXECUTE: +7-8%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +14-16",
+      "sub_stat_2": "ACCURACY: +8-10%",
+      "sub_stat_3": "CRITICAL HIT: +7-8%",
+      "sub_stat_4": "EXECUTE: +7-8%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "The cursed blade of a legendary warrior.",
-      "is_chaotic": ""
+      "lore": "The cursed blade of a legendary warrior."
     },
     "item_142": {
       "name": "Full Helmet of the Damned",
@@ -2696,8 +2572,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "The horned skull of an abyssal being.",
-      "is_chaotic": ""
+      "lore": "The horned skull of an abyssal being."
     },
     "item_143": {
       "name": "Platemail of Wailing Souls",
@@ -2714,8 +2589,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "The soul is all that remains of those sentenced to their doom.",
-      "is_chaotic": ""
+      "lore": "The soul is all that remains of those sentenced to their doom."
     },
     "item_144": {
       "name": "Tattered Leggings of Suffering",
@@ -2732,8 +2606,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "Disrepair shown through the endless ages of suffering.",
-      "is_chaotic": ""
+      "lore": "Disrepair shown through the endless ages of suffering."
     },
     "item_145": {
       "name": "Boots of the Underworld",
@@ -2750,8 +2623,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "Covered in the gore of endless torture.",
-      "is_chaotic": ""
+      "lore": "Covered in the gore of endless torture."
     }
   },
   "redeye": {
@@ -2765,16 +2637,15 @@
       "category": "armor",
       "sub_category": "helmet",
       "main_stat_1": "HP: +643-686",
-      "main_stat_2": "ENERGY REGEN: +5.25-5.44/s",
-      "main_stat_3": "INT: +225-250",
-      "sub_stat_1": "DEX: +225-250",
-      "sub_stat_2": "ITEM FIND: +7-8%",
-      "sub_stat_3": "DODGE: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 9 - 10",
+      "main_stat_3": "ENERGY REGEN: +5.25-5.44/s",
+      "sub_stat_1": "INT: +225-250",
+      "sub_stat_2": "DEX: +225-250",
+      "sub_stat_3": "ITEM FIND: +7-8%",
+      "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "The frigid helmet of an exiled bandit.",
-      "is_chaotic": ""
+      "lore": "The frigid helmet of an exiled bandit."
     },
     "item_147": {
       "name": "Redeye's Plate of the North",
@@ -2783,16 +2654,15 @@
       "category": "armor",
       "sub_category": "chestplate",
       "main_stat_1": "HP: +643-686",
-      "main_stat_2": "ENERGY REGEN: +5.25-5.44/s",
-      "main_stat_3": "INT: +225-250",
-      "sub_stat_1": "DEX: +225-250",
-      "sub_stat_2": "ITEM FIND: +7-8%",
-      "sub_stat_3": "DODGE: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 9 - 10",
+      "main_stat_3": "ENERGY REGEN: +5.25-5.44/s",
+      "sub_stat_1": "INT: +225-250",
+      "sub_stat_2": "DEX: +225-250",
+      "sub_stat_3": "ITEM FIND: +7-8%",
+      "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "A frosty platemail with Priscilla's Crest.",
-      "is_chaotic": ""
+      "lore": "A frosty platemail with Priscilla's Crest."
     },
     "item_148": {
       "name": "Redeye's Leggings of Rejuvenation",
@@ -2801,16 +2671,15 @@
       "category": "armor",
       "sub_category": "leggings",
       "main_stat_1": "HP: +643-686",
-      "main_stat_2": "ENERGY REGEN: +5.25-5.44/s",
-      "main_stat_3": "INT: +225-250",
-      "sub_stat_1": "DEX: +225-250",
-      "sub_stat_2": "ITEM FIND: +7-8%",
-      "sub_stat_3": "DODGE: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 9 - 10",
+      "main_stat_3": "ENERGY REGEN: +5.25-5.44/s",
+      "sub_stat_1": "INT: +225-250",
+      "sub_stat_2": "DEX: +225-250",
+      "sub_stat_3": "ITEM FIND: +7-8%",
+      "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "The warmth of these wooly pants keep the legs warm for running.",
-      "is_chaotic": ""
+      "lore": "The warmth of these wooly pants keep the legs warm for running."
     },
     "item_149": {
       "name": "Redeye's Lucky Boots",
@@ -2819,16 +2688,15 @@
       "category": "armor",
       "sub_category": "boots",
       "main_stat_1": "HP: +643-686",
-      "main_stat_2": "ENERGY REGEN: +5.25-5.44/s",
-      "main_stat_3": "INT: +225-250",
-      "sub_stat_1": "DEX: +225-250",
-      "sub_stat_2": "ITEM FIND: +7-8%",
-      "sub_stat_3": "DODGE: +4-5%",
-      "sub_stat_4": "",
+      "main_stat_2": "ARMOR: 9 - 10",
+      "main_stat_3": "ENERGY REGEN: +5.25-5.44/s",
+      "sub_stat_1": "INT: +225-250",
+      "sub_stat_2": "DEX: +225-250",
+      "sub_stat_3": "ITEM FIND: +7-8%",
+      "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "Four shiny coins are glued onto one boot, all facing heads.",
-      "is_chaotic": ""
+      "lore": "Four shiny coins are glued onto one boot, all facing heads."
     },
     "item_150": {
       "name": "Redeye's Frigid Longbow",
@@ -2837,16 +2705,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 97-102 - 102-107",
-      "main_stat_2": "ICE DMG: +17-19",
-      "main_stat_3": "BLINDING: +10-12%",
-      "sub_stat_1": "SLOW: +10-12%",
-      "sub_stat_2": "CRITICAL HIT: +8-10%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +17-19",
+      "sub_stat_2": "BLINDING: +10-12%",
+      "sub_stat_3": "SLOW: +10-12%",
+      "sub_stat_4": "CRITICAL HIT: +8-10%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "The chilled longbow of a secluded bandit.",
-      "is_chaotic": ""
+      "lore": "The chilled longbow of a secluded bandit."
     }
   },
   "siora": {
@@ -2858,18 +2725,17 @@
       "tier": "3",
       "img": "t3_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 79-85 - 85-89",
-      "main_stat_2": "PURE DMG: +15-17",
-      "main_stat_3": "LIFE STEAL: +10-12%",
-      "sub_stat_1": "CLEAVE: +7-8%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +15-17",
+      "sub_stat_2": "LIFE STEAL: +10-12%",
+      "sub_stat_3": "CLEAVE: +7-8%",
       "sub_stat_4": "",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "A mystical weapon, capable of sapping the life out of anything it touches.",
-      "is_chaotic": ""
+      "lore": "A mystical weapon, capable of sapping the life out of anything it touches."
     },
     "item_152": {
       "name": "Rustic Cowl",
@@ -2886,8 +2752,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "When equipping this hat, a sense of calmness can be felt throughout the entire body.",
-      "is_chaotic": ""
+      "lore": "When equipping this hat, a sense of calmness can be felt throughout the entire body."
     },
     "item_153": {
       "name": "Rustic Chestplate",
@@ -2904,8 +2769,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "Even the deepest of injuries seem to disappear while wearing this chestplate.",
-      "is_chaotic": ""
+      "lore": "Even the deepest of injuries seem to disappear while wearing this chestplate."
     },
     "item_154": {
       "name": "Rustic Leggings",
@@ -2922,8 +2786,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "Although stained with mud, these leggings feel soft and comforting to wear.",
-      "is_chaotic": ""
+      "lore": "Although stained with mud, these leggings feel soft and comforting to wear."
     },
     "item_155": {
       "name": "Rustic Treads",
@@ -2940,8 +2803,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "58",
-      "lore": "These lightweight boots make traversing through treacherous terrain almost effortless.",
-      "is_chaotic": ""
+      "lore": "These lightweight boots make traversing through treacherous terrain almost effortless."
     }
   },
   "ultimate_burick": {
@@ -2955,16 +2817,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 100-105 - 105-110",
-      "main_stat_2": "FIRE DMG: +16-18",
-      "main_stat_3": "SHATTER: +10-12%",
-      "sub_stat_1": "CRITICAL HIT: +10-12%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +16-18",
+      "sub_stat_2": "SHATTER: +10-12%",
+      "sub_stat_3": "CRITICAL HIT: +10-12%",
       "sub_stat_4": "",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "An axe stained crimson red with the blood of fallen innocents.",
-      "is_chaotic": ""
+      "lore": "An axe stained crimson red with the blood of fallen innocents."
     },
     "item_157": {
       "name": "Burick's Black Full Helmet",
@@ -2981,8 +2842,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "A dented and bloodstained helmet.",
-      "is_chaotic": ""
+      "lore": "A dented and bloodstained helmet."
     },
     "item_158": {
       "name": "Burick's Black Iron Chestplate",
@@ -2999,8 +2859,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "A thick, hard and black piece of iron armour.",
-      "is_chaotic": ""
+      "lore": "A thick, hard and black piece of iron armour."
     },
     "item_159": {
       "name": "Burick's Black Platemail Leggings",
@@ -3017,8 +2876,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "Made for long powerful legs which offer good protection.",
-      "is_chaotic": ""
+      "lore": "Made for long powerful legs which offer good protection."
     },
     "item_160": {
       "name": "Burick's Black Platemail Boots",
@@ -3035,8 +2893,7 @@
       "sub_stat_4": "BLOCK: +3-4%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "Spiked black boots clad in iron.",
-      "is_chaotic": ""
+      "lore": "Spiked black boots clad in iron."
     }
   },
   "ultimate_burick_high_priest": {
@@ -3048,18 +2905,17 @@
       "tier": "3",
       "img": "t3_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 91-95 - 95-100",
-      "main_stat_2": "POISON DMG: +15-17",
-      "main_stat_3": "CRITICAL HIT: +10-12%",
-      "sub_stat_1": "LIFE STEAL: +10-12%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +15-17",
+      "sub_stat_2": "CRITICAL HIT: +10-12%",
+      "sub_stat_3": "LIFE STEAL: +10-12%",
       "sub_stat_4": "",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "The scythe of Rejuvenation.",
-      "is_chaotic": ""
+      "lore": "The scythe of Rejuvenation."
     },
     "item_162": {
       "name": "The High Priest's Dark Hood",
@@ -3076,8 +2932,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "Crafted through the absorption of his enemies.",
-      "is_chaotic": ""
+      "lore": "Crafted through the absorption of his enemies."
     },
     "item_163": {
       "name": "The High Priest's Gilded Robe",
@@ -3094,8 +2949,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "Golden threads line The High Priest\u2019s Robe.",
-      "is_chaotic": ""
+      "lore": "Golden threads line The High Priest’s Robe."
     },
     "item_164": {
       "name": "The High Priest's Belt",
@@ -3112,8 +2966,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "The enshrined belt of The High Priest.",
-      "is_chaotic": ""
+      "lore": "The enshrined belt of The High Priest."
     },
     "item_165": {
       "name": "The High Priest's Boots",
@@ -3130,8 +2983,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "The nimble boots of The High Priest.",
-      "is_chaotic": ""
+      "lore": "The nimble boots of The High Priest."
     }
   },
   "ultimate_burick_warden": {
@@ -3145,16 +2997,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 99-104 - 104-110",
-      "main_stat_2": "PURE DMG: +16-18",
-      "main_stat_3": "ICE DMG: +16-18",
-      "sub_stat_1": "SHATTER: +6-8%",
-      "sub_stat_2": "CRUSHING: +6-8%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +16-18",
+      "sub_stat_2": "ICE DMG: +16-18",
+      "sub_stat_3": "SHATTER: +6-8%",
+      "sub_stat_4": "CRUSHING: +6-8%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "Forged with malevolent energy, leaving victims in a state of despair.",
-      "is_chaotic": ""
+      "lore": "Forged with malevolent energy, leaving victims in a state of despair."
     },
     "item_167": {
       "name": "Helm of Despair",
@@ -3171,8 +3022,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "A glimspe of the suffering caused by the Warden.",
-      "is_chaotic": ""
+      "lore": "A glimspe of the suffering caused by the Warden."
     },
     "item_168": {
       "name": "Warden's Cruel Carapace",
@@ -3189,8 +3039,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "Stained with the essense of brutality.",
-      "is_chaotic": ""
+      "lore": "Stained with the essense of brutality."
     },
     "item_169": {
       "name": "Warden's Legguards",
@@ -3207,8 +3056,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "Unstoppable resilience against those dwelling.",
-      "is_chaotic": ""
+      "lore": "Unstoppable resilience against those dwelling."
     },
     "item_170": {
       "name": "Warden's Stide",
@@ -3225,8 +3073,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "LEGENDARY",
       "level": "60",
-      "lore": "Imbued with sinister energies of the Varenglade.",
-      "is_chaotic": ""
+      "lore": "Imbued with sinister energies of the Varenglade."
     }
   },
   "cot": {
@@ -3240,16 +3087,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 164-174 - 174-185",
-      "main_stat_2": "PURE DMG: +32-36",
-      "main_stat_3": "ICE DMG: +32-36",
-      "sub_stat_1": "CRITICAL HIT: +7-8%",
-      "sub_stat_2": "VS. MONSTERS: +12-15%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +32-36",
+      "sub_stat_2": "ICE DMG: +32-36",
+      "sub_stat_3": "CRITICAL HIT: +7-8%",
+      "sub_stat_4": "VS. MONSTERS: +12-15%",
       "rarity": "RARE",
       "level": "70",
-      "lore": "A jewel encrusted mace which glimmers in the sunlight.",
-      "is_chaotic": ""
+      "lore": "A jewel encrusted mace which glimmers in the sunlight."
     },
     "item_172": {
       "name": "The Collector's Glistening Braincase",
@@ -3266,8 +3112,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "RARE",
       "level": "70",
-      "lore": "Rolling cogs make this braincase particularly uncomfortable.",
-      "is_chaotic": ""
+      "lore": "Rolling cogs make this braincase particularly uncomfortable."
     },
     "item_173": {
       "name": "The Collector's Magical Platebody",
@@ -3284,8 +3129,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "RARE",
       "level": "70",
-      "lore": "Magical energies flow out of the large gem located in the middle of this platebody.",
-      "is_chaotic": ""
+      "lore": "Magical energies flow out of the large gem located in the middle of this platebody."
     },
     "item_174": {
       "name": "The Collector's Shimmering Garbs",
@@ -3302,8 +3146,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "RARE",
       "level": "70",
-      "lore": "Rumors say that these pockets can expand to hold any amout of treasure.",
-      "is_chaotic": ""
+      "lore": "Rumors say that these pockets can expand to hold any amout of treasure."
     },
     "item_175": {
       "name": "The Collector's Lucky Treads",
@@ -3320,8 +3163,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "RARE",
       "level": "70",
-      "lore": "Shiny boots reinforced with mithril.",
-      "is_chaotic": ""
+      "lore": "Shiny boots reinforced with mithril."
     }
   },
   "drakthul": {
@@ -3335,16 +3177,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 167-176 - 176-185",
-      "main_stat_2": "FIRE DMG: +32-35",
-      "main_stat_3": "CRITICAL HIT: +10-12%",
-      "sub_stat_1": "SHATTER: +8-10%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +32-35",
+      "sub_stat_2": "CRITICAL HIT: +10-12%",
+      "sub_stat_3": "SHATTER: +8-10%",
       "sub_stat_4": "",
       "rarity": "EPIC",
       "level": "70",
-      "lore": "A flaming cleaver forged from the great hellfires of the underworld.",
-      "is_chaotic": ""
+      "lore": "A flaming cleaver forged from the great hellfires of the underworld."
     },
     "item_177": {
       "name": "Hellfire Helmet",
@@ -3361,8 +3202,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "70",
-      "lore": "Flames of hell protrude through this helmet, shaped like the horns of a Daemon Lord.",
-      "is_chaotic": ""
+      "lore": "Flames of hell protrude through this helmet, shaped like the horns of a Daemon Lord."
     },
     "item_178": {
       "name": "Hellfire Chestpiece",
@@ -3379,8 +3219,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "70",
-      "lore": "A sigil of the Daemon Lord, a haunting reminder of dominance over all who dwell this earth.",
-      "is_chaotic": ""
+      "lore": "A sigil of the Daemon Lord, a haunting reminder of dominance over all who dwell this earth."
     },
     "item_179": {
       "name": "Hellfire Greaves",
@@ -3397,8 +3236,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "70",
-      "lore": "The embers of hell that emanate from these greaves distort the air around them.",
-      "is_chaotic": ""
+      "lore": "The embers of hell that emanate from these greaves distort the air around them."
     },
     "item_180": {
       "name": "Hellfire Stompers",
@@ -3415,8 +3253,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "EPIC",
       "level": "70",
-      "lore": "With every step taken, the ground trembles in fear of immense power.",
-      "is_chaotic": ""
+      "lore": "With every step taken, the ground trembles in fear of immense power."
     }
   },
   "impa": {
@@ -3430,16 +3267,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 143-152 - 152-161",
-      "main_stat_2": "FIRE DMG: +30-32",
-      "main_stat_3": "ACCURACY: +15-20%",
-      "sub_stat_1": "PIERCING: +15-20",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +30-32",
+      "sub_stat_2": "ACCURACY: +15-20%",
+      "sub_stat_3": "PIERCING: +15-20",
       "sub_stat_4": "",
       "rarity": "RARE",
       "level": "70",
-      "lore": "The legendary sword which led in the seige of Avalon.",
-      "is_chaotic": ""
+      "lore": "The legendary sword which led in the seige of Avalon."
     },
     "item_182": {
       "name": "Crooked Battle Mask",
@@ -3456,8 +3292,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +12-15%",
       "rarity": "RARE",
       "level": "70",
-      "lore": "The ominous black mask, worn by an impish general as a symbol of dark ages.",
-      "is_chaotic": ""
+      "lore": "The ominous black mask, worn by an impish general as a symbol of dark ages."
     },
     "item_183": {
       "name": "Haunting Platemail of Avalon's Fright",
@@ -3474,8 +3309,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +12-15%",
       "rarity": "RARE",
       "level": "70",
-      "lore": "A breastplate with the feared symbol of Impa's army carved into it.",
-      "is_chaotic": ""
+      "lore": "A breastplate with the feared symbol of Impa's army carved into it."
     },
     "item_184": {
       "name": "Warding Skeletal Leggings",
@@ -3492,8 +3326,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +12-15%",
       "rarity": "RARE",
       "level": "70",
-      "lore": "Forged from the bones of fallen dwarves and imbued with the power of Avalon.",
-      "is_chaotic": ""
+      "lore": "Forged from the bones of fallen dwarves and imbued with the power of Avalon."
     },
     "item_185": {
       "name": "Skeletal Death Walkers",
@@ -3510,8 +3343,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +12-15%",
       "rarity": "RARE",
       "level": "70",
-      "lore": "The boots with which Impa stood among the throne of the underworld.",
-      "is_chaotic": ""
+      "lore": "The boots with which Impa stood among the throne of the underworld."
     }
   },
   "sylasia": {
@@ -3523,18 +3355,17 @@
       "tier": "4",
       "img": "t4_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 153-162 - 162-172",
-      "main_stat_2": "PURE DMG: +31-34",
-      "main_stat_3": "LIFE STEAL: +10-12%",
-      "sub_stat_1": "CLEAVE: +10-12%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +31-34",
+      "sub_stat_2": "LIFE STEAL: +10-12%",
+      "sub_stat_3": "CLEAVE: +10-12%",
       "sub_stat_4": "",
       "rarity": "RARE",
       "level": "72",
-      "lore": "A fabled scythe which manipulates growth and decay.",
-      "is_chaotic": ""
+      "lore": "A fabled scythe which manipulates growth and decay."
     },
     "item_187": {
       "name": "Fairysilk Coif",
@@ -3551,8 +3382,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "72",
-      "lore": "The coif of a nymph at one with nature, enchanted with a rare silk that cloaks the body comfortingly.",
-      "is_chaotic": ""
+      "lore": "The coif of a nymph at one with nature, enchanted with a rare silk that cloaks the body comfortingly."
     },
     "item_188": {
       "name": "Fairysilk Robes",
@@ -3569,8 +3399,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "72",
-      "lore": "Radiant robes that give off a faint fluorescent glow, enriched by the essence of life.",
-      "is_chaotic": ""
+      "lore": "Radiant robes that give off a faint fluorescent glow, enriched by the essence of life."
     },
     "item_189": {
       "name": "Fairysilk Leggings",
@@ -3587,8 +3416,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "72",
-      "lore": "A fine pair of druidic leggings, made with material from a rare fungus.",
-      "is_chaotic": ""
+      "lore": "A fine pair of druidic leggings, made with material from a rare fungus."
     },
     "item_190": {
       "name": "Fairysilk Boots",
@@ -3605,8 +3433,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "RARE",
       "level": "72",
-      "lore": "Silkshroom enchanted boots, which have an extrodinary connection to the natural world.",
-      "is_chaotic": ""
+      "lore": "Silkshroom enchanted boots, which have an extrodinary connection to the natural world."
     }
   },
   "zephyr": {
@@ -3618,18 +3445,17 @@
       "tier": "4",
       "img": "t4_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 162-171 - 171-180",
-      "main_stat_2": "ICE DMG: +30-33",
-      "main_stat_3": "FIRE DMG: +30-33",
-      "sub_stat_1": "POISON DMG: +30-33",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +30-33",
+      "sub_stat_2": "FIRE DMG: +30-33",
+      "sub_stat_3": "POISON DMG: +30-33",
       "sub_stat_4": "",
       "rarity": "EPIC",
       "level": "72",
-      "lore": "A prismatic silver scythe infused with the magic of a powerful mage.",
-      "is_chaotic": ""
+      "lore": "A prismatic silver scythe infused with the magic of a powerful mage."
     },
     "item_192": {
       "name": "Zephyr's Hood of Illusion",
@@ -3646,8 +3472,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "72",
-      "lore": "Zephyr's relic, aiding in the work of dark magic.",
-      "is_chaotic": ""
+      "lore": "Zephyr's relic, aiding in the work of dark magic."
     },
     "item_193": {
       "name": "Zephyr's Mythical Robe",
@@ -3664,8 +3489,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "72",
-      "lore": "A mystical robe with the power to possess its host.",
-      "is_chaotic": ""
+      "lore": "A mystical robe with the power to possess its host."
     },
     "item_194": {
       "name": "Zephyr's Silken Leggings",
@@ -3682,8 +3506,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "72",
-      "lore": "Filthy breeches that have been exposed to many concoctions of magic.",
-      "is_chaotic": ""
+      "lore": "Filthy breeches that have been exposed to many concoctions of magic."
     },
     "item_195": {
       "name": "Zephyr's Magical Boots",
@@ -3700,8 +3523,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "72",
-      "lore": "Finely crafted boots which emanate a strange energy.",
-      "is_chaotic": ""
+      "lore": "Finely crafted boots which emanate a strange energy."
     }
   },
   "larith": {
@@ -3723,8 +3545,7 @@
       "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "74",
-      "lore": "A magnificent crown, worn by great rulers of the past.",
-      "is_chaotic": ""
+      "lore": "A magnificent crown, worn by great rulers of the past."
     },
     "item_197": {
       "name": "Breastplate of Absolute Greatness",
@@ -3741,8 +3562,7 @@
       "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "74",
-      "lore": "The glory of battle is forever lasting.",
-      "is_chaotic": ""
+      "lore": "The glory of battle is forever lasting."
     },
     "item_198": {
       "name": "Legplates of Boundless Splendor",
@@ -3759,8 +3579,7 @@
       "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "74",
-      "lore": "Fame will befall on those capable of excellence.",
-      "is_chaotic": ""
+      "lore": "Fame will befall on those capable of excellence."
     },
     "item_199": {
       "name": "Footguards of Neverending Triumph",
@@ -3777,8 +3596,7 @@
       "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "74",
-      "lore": "The footsteps of the victorious will last for an eternity.",
-      "is_chaotic": ""
+      "lore": "The footsteps of the victorious will last for an eternity."
     },
     "item_200": {
       "name": "Bow of Eternal Glory",
@@ -3787,16 +3605,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 189-199 - 199-210",
-      "main_stat_2": "ICE DMG: +34-38",
-      "main_stat_3": "SLOW: +14-16%",
-      "sub_stat_1": "BLEEDING: +8-10%",
-      "sub_stat_2": "PIERCING: +12-15",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +34-38",
+      "sub_stat_2": "SLOW: +14-16%",
+      "sub_stat_3": "BLEEDING: +8-10%",
+      "sub_stat_4": "PIERCING: +12-15",
       "rarity": "EPIC",
       "level": "74",
-      "lore": "A powerful bow which radiates an energy reminiscent of the great peaks of the Frozen North.",
-      "is_chaotic": ""
+      "lore": "A powerful bow which radiates an energy reminiscent of the great peaks of the Frozen North."
     }
   },
   "daeyner": {
@@ -3808,18 +3625,17 @@
       "tier": "4",
       "img": "t4_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 186-195 - 195-205",
-      "main_stat_2": "FIRE DMG: +34-36",
-      "main_stat_3": "CRITICAL HIT: +8-10%",
-      "sub_stat_1": "CLEAVE: +8-10%",
-      "sub_stat_2": "EXECUTE: +8-10%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +34-36",
+      "sub_stat_2": "CRITICAL HIT: +8-10%",
+      "sub_stat_3": "CLEAVE: +8-10%",
+      "sub_stat_4": "EXECUTE: +8-10%",
       "rarity": "LEGENDARY",
       "level": "75",
-      "lore": "The great scythe of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "The great scythe of The Infernal Abyss."
     },
     "item_202": {
       "name": "Abyssal Accursed Helmet",
@@ -3836,8 +3652,7 @@
       "sub_stat_4": "REFLECT: +4-5%",
       "rarity": "LEGENDARY",
       "level": "75",
-      "lore": "The burning helmet of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "The burning helmet of The Infernal Abyss."
     },
     "item_203": {
       "name": "Abyssal Accursed Chestpiece",
@@ -3854,8 +3669,7 @@
       "sub_stat_4": "REFLECT: +4-5%",
       "rarity": "LEGENDARY",
       "level": "75",
-      "lore": "The accursed chestpiece of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "The accursed chestpiece of The Infernal Abyss."
     },
     "item_204": {
       "name": "Abyssal Accursed Leggings",
@@ -3872,8 +3686,7 @@
       "sub_stat_4": "REFLECT: +4-5%",
       "rarity": "LEGENDARY",
       "level": "75",
-      "lore": "The fiery leggings of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "The fiery leggings of The Infernal Abyss."
     },
     "item_205": {
       "name": "Abyssal Accursed Boots",
@@ -3890,8 +3703,7 @@
       "sub_stat_4": "REFLECT: +4-5%",
       "rarity": "LEGENDARY",
       "level": "75",
-      "lore": "The studded boots of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "The studded boots of The Infernal Abyss."
     }
   },
   "fire_lord": {
@@ -3913,8 +3725,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "Volcanic crown encrusted with jewels forged by volcanic ember.",
-      "is_chaotic": ""
+      "lore": "Volcanic crown encrusted with jewels forged by volcanic ember."
     },
     "item_207": {
       "name": "Molten Anguish",
@@ -3931,8 +3742,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "The molten chestpiece of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The molten chestpiece of a greater demon."
     },
     "item_208": {
       "name": "Blaze of Glory",
@@ -3949,8 +3759,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "The fiery leggings of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The fiery leggings of a greater demon."
     },
     "item_209": {
       "name": "Magma Treads",
@@ -3967,8 +3776,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "Boots crafted by magma of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "Boots crafted by magma of The Infernal Abyss."
     },
     "item_210": {
       "name": "Flamehawk",
@@ -3977,16 +3785,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 202-212 - 212-223",
-      "main_stat_2": "FIRE DMG: +34-38",
-      "main_stat_3": "GLOWING: +40-50%",
-      "sub_stat_1": "EXECUTE: +8-10%",
-      "sub_stat_2": "ACCURACY: +10-12%",
-      "sub_stat_3": "BLEEDING: +8-10%",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +34-38",
+      "sub_stat_2": "GLOWING: +40-50%",
+      "sub_stat_3": "EXECUTE: +8-10%",
+      "sub_stat_4": "ACCURACY: +10-12%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "When an arrow is launched from this bow, you can hear a hawk's cry.",
-      "is_chaotic": ""
+      "lore": "When an arrow is launched from this bow, you can hear a hawk's cry."
     }
   },
   "ice_lord": {
@@ -4000,16 +3807,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 194-204 - 204-213",
-      "main_stat_2": "ICE DMG: +33-37",
-      "main_stat_3": "SHATTER: +10-12%",
-      "sub_stat_1": "CRUSHING: +10-12%",
-      "sub_stat_2": "ACCURACY: +12-15%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +33-37",
+      "sub_stat_2": "SHATTER: +10-12%",
+      "sub_stat_3": "CRUSHING: +10-12%",
+      "sub_stat_4": "ACCURACY: +12-15%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "The mace aged through generations of a cruel war.",
-      "is_chaotic": ""
+      "lore": "The mace aged through generations of a cruel war."
     },
     "item_212": {
       "name": "Frozen Crown",
@@ -4026,8 +3832,7 @@
       "sub_stat_4": "BLOCK: +4-5%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "The misty, royal crown of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The misty, royal crown of a greater demon."
     },
     "item_213": {
       "name": "Ice Lord's Unbreakable Chestpiece",
@@ -4044,8 +3849,7 @@
       "sub_stat_4": "BLOCK: +4-5%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "The unbreakable icy chestpiece of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The unbreakable icy chestpiece of a greater demon."
     },
     "item_214": {
       "name": "Ice Lord's Frozen Leggings",
@@ -4062,8 +3866,7 @@
       "sub_stat_4": "BLOCK: +4-5%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "The frozen leggings of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The frozen leggings of a greater demon."
     },
     "item_215": {
       "name": "Ice Lord's Boots",
@@ -4080,8 +3883,7 @@
       "sub_stat_4": "BLOCK: +4-5%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "The frost covered boots of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The frost covered boots of a greater demon."
     }
   },
   "rimdol": {
@@ -4095,16 +3897,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 159-168 - 168-177",
-      "main_stat_2": "POISON DMG: +30-32",
-      "main_stat_3": "EXECUTE: +10-12%",
-      "sub_stat_1": "LIFE STEAL: +10-12%",
-      "sub_stat_2": "",
-      "sub_stat_3": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +30-32",
+      "sub_stat_2": "EXECUTE: +10-12%",
+      "sub_stat_3": "LIFE STEAL: +10-12%",
       "sub_stat_4": "",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "A Corroded Blade infused with both disease and famine.",
-      "is_chaotic": ""
+      "lore": "A Corroded Blade infused with both disease and famine."
     },
     "item_217": {
       "name": "Rim'Dol's Barbed Headdress",
@@ -4121,8 +3922,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "An intricate ceremonial headdress embedded with a variety of carved bones.",
-      "is_chaotic": ""
+      "lore": "An intricate ceremonial headdress embedded with a variety of carved bones."
     },
     "item_218": {
       "name": "Rim'Dol's Darksteel Robes",
@@ -4139,8 +3939,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "Exquisitely decorated robes woven from a tough steel fiber and fine silk.",
-      "is_chaotic": ""
+      "lore": "Exquisitely decorated robes woven from a tough steel fiber and fine silk."
     },
     "item_219": {
       "name": "Rim'Dol's Sacramental Legguards",
@@ -4157,8 +3956,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "An adorned pair of legguards emanating a feeling of sickness.",
-      "is_chaotic": ""
+      "lore": "An adorned pair of legguards emanating a feeling of sickness."
     },
     "item_220": {
       "name": "Rim'Dol's Ritualistic Boots",
@@ -4175,8 +3973,7 @@
       "sub_stat_4": "THORNS: +4-5%",
       "rarity": "EPIC",
       "level": "75",
-      "lore": "A lightweight pair of ornate boots, dyed to a deep crimson.",
-      "is_chaotic": ""
+      "lore": "A lightweight pair of ornate boots, dyed to a deep crimson."
     }
   },
   "duranor": {
@@ -4190,16 +3987,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 196-206 - 206-215",
-      "main_stat_2": "FIRE DMG: +32-35",
-      "main_stat_3": "PURE DMG: +32-35",
-      "sub_stat_1": "CRUSHING: +5-6%",
-      "sub_stat_2": "CRITICAL HIT: +5-6%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +32-35",
+      "sub_stat_2": "PURE DMG: +32-35",
+      "sub_stat_3": "CRUSHING: +5-6%",
+      "sub_stat_4": "CRITICAL HIT: +5-6%",
       "rarity": "EPIC",
       "level": "76",
-      "lore": "Duranor's sledge of slavery, forged at the heart of Avalon.",
-      "is_chaotic": ""
+      "lore": "Duranor's sledge of slavery, forged at the heart of Avalon."
     },
     "item_222": {
       "name": "Duranor's Robust Crown",
@@ -4216,8 +4012,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "EPIC",
       "level": "76",
-      "lore": "A shimmering crown that strikes great fear upon Avalon.",
-      "is_chaotic": ""
+      "lore": "A shimmering crown that strikes great fear upon Avalon."
     },
     "item_223": {
       "name": "Duranor's Scorched Platemail",
@@ -4234,8 +4029,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "EPIC",
       "level": "76",
-      "lore": "The hardened chestpiece of a once reveled master of Avalon.",
-      "is_chaotic": ""
+      "lore": "The hardened chestpiece of a once reveled master of Avalon."
     },
     "item_224": {
       "name": "Duranor's Magma Infused Leggings",
@@ -4252,8 +4046,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "EPIC",
       "level": "76",
-      "lore": "The magma-scorched leggings of a merciless tyrant.",
-      "is_chaotic": ""
+      "lore": "The magma-scorched leggings of a merciless tyrant."
     },
     "item_225": {
       "name": "Duranor's Searing Boots",
@@ -4270,8 +4063,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "EPIC",
       "level": "76",
-      "lore": "Well-worn boots, scorched by traversing the treacherous depths of magma.",
-      "is_chaotic": ""
+      "lore": "Well-worn boots, scorched by traversing the treacherous depths of magma."
     }
   },
   "blayshan": {
@@ -4285,16 +4077,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 191-200 - 200-210",
-      "main_stat_2": "ICE DMG: +30-32",
-      "main_stat_3": "PURE DMG: +30-32",
-      "sub_stat_1": "SHATTER: +5-6%",
-      "sub_stat_2": "CRITICAL HIT: +5-6%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +30-32",
+      "sub_stat_2": "PURE DMG: +30-32",
+      "sub_stat_3": "SHATTER: +5-6%",
+      "sub_stat_4": "CRITICAL HIT: +5-6%",
       "rarity": "EPIC",
       "level": "78",
-      "lore": "An axe with the face of the cursed Blayshan carved into it.",
-      "is_chaotic": ""
+      "lore": "An axe with the face of the cursed Blayshan carved into it."
     },
     "item_227": {
       "name": "Blayshan's Accursed Helmet",
@@ -4311,8 +4102,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +10-15%",
       "rarity": "EPIC",
       "level": "78",
-      "lore": "A crown of thorns, which emits a strange deep purple.",
-      "is_chaotic": ""
+      "lore": "A crown of thorns, which emits a strange deep purple."
     },
     "item_228": {
       "name": "Blayshan's Horned Platemail",
@@ -4329,8 +4119,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +10-15%",
       "rarity": "EPIC",
       "level": "78",
-      "lore": "A light chestplate, studded with thorny horns.",
-      "is_chaotic": ""
+      "lore": "A light chestplate, studded with thorny horns."
     },
     "item_229": {
       "name": "Blayshan's Thorned Leggings",
@@ -4347,8 +4136,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +10-15%",
       "rarity": "EPIC",
       "level": "78",
-      "lore": "Thorny leggings with graceful vitality from the great tree of dreadwood.",
-      "is_chaotic": ""
+      "lore": "Thorny leggings with graceful vitality from the great tree of dreadwood."
     },
     "item_230": {
       "name": "Blayshan's Scaled Platemail",
@@ -4365,8 +4153,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +10-15%",
       "rarity": "EPIC",
       "level": "78",
-      "lore": "A pair of boots forged by the scales of nagas.",
-      "is_chaotic": ""
+      "lore": "A pair of boots forged by the scales of nagas."
     }
   },
   "mod": {
@@ -4380,16 +4167,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 173-182 - 182-191",
-      "main_stat_2": "POISON DMG: +30-32",
-      "main_stat_3": "PIERCING: +12-15",
-      "sub_stat_1": "EXECUTE: +10-12%",
-      "sub_stat_2": "VS. PLAYERS: +12-15%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +30-32",
+      "sub_stat_2": "PIERCING: +12-15",
+      "sub_stat_3": "EXECUTE: +10-12%",
+      "sub_stat_4": "VS. PLAYERS: +12-15%",
       "rarity": "EPIC",
       "level": "78",
-      "lore": "A fang ripped from the Mother's mouth, oozing with venom.",
-      "is_chaotic": ""
+      "lore": "A fang ripped from the Mother's mouth, oozing with venom."
     },
     "item_232": {
       "name": "Mother of Doom's Head",
@@ -4406,8 +4192,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "78",
-      "lore": "A trophy from the Mother of Doom, still dripping with venom.",
-      "is_chaotic": ""
+      "lore": "A trophy from the Mother of Doom, still dripping with venom."
     },
     "item_233": {
       "name": "Mother of Doom's Crystalhide Plate",
@@ -4424,8 +4209,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "78",
-      "lore": "Crystal-encrusted exoskeleton once worn by the Mother.",
-      "is_chaotic": ""
+      "lore": "Crystal-encrusted exoskeleton once worn by the Mother."
     },
     "item_234": {
       "name": "Mother of Doom's Web Weave Leggings",
@@ -4442,8 +4226,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "78",
-      "lore": "Those who wear these too long may find themselves succumbing to insidious influence.",
-      "is_chaotic": ""
+      "lore": "Those who wear these too long may find themselves succumbing to insidious influence."
     },
     "item_235": {
       "name": "Mother of Doom's Creepy Crawlers",
@@ -4460,8 +4243,7 @@
       "sub_stat_4": "THORNS: +5-6%",
       "rarity": "EPIC",
       "level": "78",
-      "lore": "They give your feet an insatiably itching sensation.",
-      "is_chaotic": ""
+      "lore": "They give your feet an insatiably itching sensation."
     }
   },
   "ultimate_daeyner": {
@@ -4473,18 +4255,17 @@
       "tier": "4",
       "img": "t4_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 204-214 - 214-225",
-      "main_stat_2": "FIRE DMG: +34-36",
-      "main_stat_3": "CRITICAL HIT: +7-8%",
-      "sub_stat_1": "CLEAVE: +8-10%",
-      "sub_stat_2": "EXECUTE: +7-8%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +34-36",
+      "sub_stat_2": "CRITICAL HIT: +7-8%",
+      "sub_stat_3": "CLEAVE: +8-10%",
+      "sub_stat_4": "EXECUTE: +7-8%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The great scythe of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "The great scythe of The Infernal Abyss."
     },
     "item_237": {
       "name": "Abyssal Accursed Helmet",
@@ -4501,8 +4282,7 @@
       "sub_stat_4": "REFLECT: +4-5%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The burning helmet of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "The burning helmet of The Infernal Abyss."
     },
     "item_238": {
       "name": "Abyssal Accursed Chestpiece",
@@ -4519,8 +4299,7 @@
       "sub_stat_4": "REFLECT: +4-5%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The accursed chestpiece of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "The accursed chestpiece of The Infernal Abyss."
     },
     "item_239": {
       "name": "Abyssal Accursed Leggings",
@@ -4537,8 +4316,7 @@
       "sub_stat_4": "REFLECT: +4-5%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The fiery leggings of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "The fiery leggings of The Infernal Abyss."
     },
     "item_240": {
       "name": "Abyssal Accursed Boots",
@@ -4555,8 +4333,7 @@
       "sub_stat_4": "REFLECT: +4-5%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The studded boots of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "The studded boots of The Infernal Abyss."
     }
   },
   "ultimate_fire_lord": {
@@ -4578,8 +4355,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "Volcanic crown encrusted with jewels forged by volcanic ember.",
-      "is_chaotic": ""
+      "lore": "Volcanic crown encrusted with jewels forged by volcanic ember."
     },
     "item_242": {
       "name": "Molten Anguish",
@@ -4596,8 +4372,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The molten chestpiece of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The molten chestpiece of a greater demon."
     },
     "item_243": {
       "name": "Blaze of Glory",
@@ -4614,8 +4389,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The fiery leggings of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The fiery leggings of a greater demon."
     },
     "item_244": {
       "name": "Magma Treads",
@@ -4632,8 +4406,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "Boots crafted by magma of The Infernal Abyss.",
-      "is_chaotic": ""
+      "lore": "Boots crafted by magma of The Infernal Abyss."
     },
     "item_245": {
       "name": "Flamehawk",
@@ -4642,16 +4415,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 223-233 - 233-245",
-      "main_stat_2": "FIRE DMG: +34-38",
-      "main_stat_3": "GLOWING: +40-50%",
-      "sub_stat_1": "EXECUTE: +8-10%",
-      "sub_stat_2": "ACCURACY: +10-12%",
-      "sub_stat_3": "BLEEDING: +8-10%",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +34-38",
+      "sub_stat_2": "GLOWING: +40-50%",
+      "sub_stat_3": "EXECUTE: +8-10%",
+      "sub_stat_4": "ACCURACY: +10-12%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "When an arrow is launched from this bow, you can hear a hawk's cry.",
-      "is_chaotic": ""
+      "lore": "When an arrow is launched from this bow, you can hear a hawk's cry."
     }
   },
   "ultimate_ice_lord": {
@@ -4665,16 +4437,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 213-223 - 223-235",
-      "main_stat_2": "ICE DMG: +33-37",
-      "main_stat_3": "SHATTER: +10-12%",
-      "sub_stat_1": "CRUSHING: +10-12%",
-      "sub_stat_2": "ACCURACY: +12-15%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +33-37",
+      "sub_stat_2": "SHATTER: +10-12%",
+      "sub_stat_3": "CRUSHING: +10-12%",
+      "sub_stat_4": "ACCURACY: +12-15%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The mace aged through generations of a cruel war.",
-      "is_chaotic": ""
+      "lore": "The mace aged through generations of a cruel war."
     },
     "item_247": {
       "name": "Frozen Crown",
@@ -4691,8 +4462,7 @@
       "sub_stat_4": "BLOCK: +4-5%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The misty, royal crown of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The misty, royal crown of a greater demon."
     },
     "item_248": {
       "name": "Ice Lord's Unbreakable Chestpiece",
@@ -4709,8 +4479,7 @@
       "sub_stat_4": "BLOCK: +4-5%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The unbreakable icy chestpiece of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The unbreakable icy chestpiece of a greater demon."
     },
     "item_249": {
       "name": "Ice Lord's Frozen Leggings",
@@ -4727,8 +4496,7 @@
       "sub_stat_4": "BLOCK: +4-5%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The frozen leggings of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The frozen leggings of a greater demon."
     },
     "item_250": {
       "name": "Ice Lord's Boots",
@@ -4745,8 +4513,7 @@
       "sub_stat_4": "BLOCK: +4-5%",
       "rarity": "LEGENDARY",
       "level": "80",
-      "lore": "The frost covered boots of a greater demon.",
-      "is_chaotic": ""
+      "lore": "The frost covered boots of a greater demon."
     }
   },
   "forgotten_librarian": {
@@ -4760,16 +4527,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 322-340 - 340-358",
-      "main_stat_2": "PURE DMG: +70-75",
-      "main_stat_3": "PIERCING: +12-15",
-      "sub_stat_1": "SHATTER: +10-12%",
-      "sub_stat_2": "CRUSHING: +10-12%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +70-75",
+      "sub_stat_2": "PIERCING: +12-15",
+      "sub_stat_3": "SHATTER: +10-12%",
+      "sub_stat_4": "CRUSHING: +10-12%",
       "rarity": "RARE",
       "level": "87",
-      "lore": "A brilliant golden glaive with an unbreakable crystal head.",
-      "is_chaotic": ""
+      "lore": "A brilliant golden glaive with an unbreakable crystal head."
     },
     "item_252": {
       "name": "Fluffy Wool Cap",
@@ -4786,8 +4552,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "RARE",
       "level": "87",
-      "lore": "A warm cap from the northern library. Its durability is somewhat astounding.",
-      "is_chaotic": ""
+      "lore": "A warm cap from the northern library. Its durability is somewhat astounding."
     },
     "item_253": {
       "name": "Heavy Book Platemail",
@@ -4804,8 +4569,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "RARE",
       "level": "87",
-      "lore": "Armor fashioned out of enchanted books. It's really heavy, but impervious to most damage.",
-      "is_chaotic": ""
+      "lore": "Armor fashioned out of enchanted books. It's really heavy, but impervious to most damage."
     },
     "item_254": {
       "name": "Enchanted Paper Leggings",
@@ -4822,8 +4586,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "RARE",
       "level": "87",
-      "lore": "Thin leather pants covered in elaborate runes to negate damage.",
-      "is_chaotic": ""
+      "lore": "Thin leather pants covered in elaborate runes to negate damage."
     },
     "item_255": {
       "name": "Hardcover Boots",
@@ -4840,8 +4603,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "RARE",
       "level": "87",
-      "lore": "A pair of sheep skin boots enchanted to be harder than steel.",
-      "is_chaotic": ""
+      "lore": "A pair of sheep skin boots enchanted to be harder than steel."
     }
   },
   "dark_one": {
@@ -4863,8 +4625,7 @@
       "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "RARE",
       "level": "88",
-      "lore": "The world seems... quieter somehow.",
-      "is_chaotic": ""
+      "lore": "The world seems... quieter somehow."
     },
     "item_257": {
       "name": "Cloak of Darkness",
@@ -4881,8 +4642,7 @@
       "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "RARE",
       "level": "88",
-      "lore": "Blend into the shadows of the night.",
-      "is_chaotic": ""
+      "lore": "Blend into the shadows of the night."
     },
     "item_258": {
       "name": "Lunar Legplates",
@@ -4899,8 +4659,7 @@
       "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "RARE",
       "level": "88",
-      "lore": "The full moon's light reflects off these shiny leggings.",
-      "is_chaotic": ""
+      "lore": "The full moon's light reflects off these shiny leggings."
     },
     "item_259": {
       "name": "Void Striders",
@@ -4917,8 +4676,7 @@
       "sub_stat_4": "ITEM FIND: +7-8%",
       "rarity": "RARE",
       "level": "88",
-      "lore": "These boots seem to float over open space, if only for a moment.",
-      "is_chaotic": ""
+      "lore": "These boots seem to float over open space, if only for a moment."
     },
     "item_260": {
       "name": "Weaver of Shadows",
@@ -4927,16 +4685,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 339-358 - 358-377",
-      "main_stat_2": "ICE DMG: +70-77",
-      "main_stat_3": "CRITICAL HIT: +10-12%",
-      "sub_stat_1": "VS. MONSTERS: +15-20%",
-      "sub_stat_2": "SLOW: +10-12%",
-      "sub_stat_3": "PIERCING: +12-15",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +70-77",
+      "sub_stat_2": "CRITICAL HIT: +10-12%",
+      "sub_stat_3": "VS. MONSTERS: +15-20%",
+      "sub_stat_4": "SLOW: +10-12%",
       "rarity": "RARE",
       "level": "88",
-      "lore": "An ancient weapon rumored to devour the soul of any being pierced by its arrow.",
-      "is_chaotic": ""
+      "lore": "An ancient weapon rumored to devour the soul of any being pierced by its arrow."
     }
   },
   "storm_caller": {
@@ -4950,16 +4707,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 283-298 - 298-314",
-      "main_stat_2": "PURE DMG: +60-64",
-      "main_stat_3": "CRITICAL HIT: +8-10%",
-      "sub_stat_1": "EXECUTE: +8-10%",
-      "sub_stat_2": "PIERCING: +12-15",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +60-64",
+      "sub_stat_2": "CRITICAL HIT: +8-10%",
+      "sub_stat_3": "EXECUTE: +8-10%",
+      "sub_stat_4": "PIERCING: +12-15",
       "rarity": "RARE",
       "level": "88",
-      "lore": "By the power of this weapon, those who are worthy can bend the sky to their will.",
-      "is_chaotic": ""
+      "lore": "By the power of this weapon, those who are worthy can bend the sky to their will."
     },
     "item_262": {
       "name": "Storm Caller's Helmet",
@@ -4976,8 +4732,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "88",
-      "lore": "An orcish helm that channels the powers of the sky.",
-      "is_chaotic": ""
+      "lore": "An orcish helm that channels the powers of the sky."
     },
     "item_263": {
       "name": "Storm Caller's Platemail",
@@ -4994,8 +4749,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "88",
-      "lore": "An orcish platemail chestplate that has withstood many attacks from Renegade soldiers.",
-      "is_chaotic": ""
+      "lore": "An orcish platemail chestplate that has withstood many attacks from Renegade soldiers."
     },
     "item_264": {
       "name": "Storm Caller's Leggings",
@@ -5012,8 +4766,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "88",
-      "lore": "Orcish leggings of incredible durability. They don't seem to have a single scratch on them.",
-      "is_chaotic": ""
+      "lore": "Orcish leggings of incredible durability. They don't seem to have a single scratch on them."
     },
     "item_265": {
       "name": "Storm Caller's Boots",
@@ -5030,8 +4783,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "88",
-      "lore": "Orcish boots that emit a thunderous boom with every step.",
-      "is_chaotic": ""
+      "lore": "Orcish boots that emit a thunderous boom with every step."
     }
   },
   "arethusa": {
@@ -5043,18 +4795,17 @@
       "tier": "5",
       "img": "t5_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 303-320 - 320-337",
-      "main_stat_2": "POISON DMG: +64-68",
-      "main_stat_3": "CRITICAL HIT: +10-12%",
-      "sub_stat_1": "PIERCING: +12-15",
-      "sub_stat_2": "CLEAVE: +10-12%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +64-68",
+      "sub_stat_2": "CRITICAL HIT: +10-12%",
+      "sub_stat_3": "PIERCING: +12-15",
+      "sub_stat_4": "CLEAVE: +10-12%",
       "rarity": "RARE",
       "level": "90",
-      "lore": "A scythe covered in mushrooms from the harvest of years long past.",
-      "is_chaotic": ""
+      "lore": "A scythe covered in mushrooms from the harvest of years long past."
     },
     "item_267": {
       "name": "Empress' Pileus",
@@ -5071,8 +4822,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "RARE",
       "level": "90",
-      "lore": "A shroom fit for the Empress' head, covered in fungi.",
-      "is_chaotic": ""
+      "lore": "A shroom fit for the Empress' head, covered in fungi."
     },
     "item_268": {
       "name": "Fungi Robe",
@@ -5089,8 +4839,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "RARE",
       "level": "90",
-      "lore": "A vibrant cloth robe, made of resilient and colorful shrooms.",
-      "is_chaotic": ""
+      "lore": "A vibrant cloth robe, made of resilient and colorful shrooms."
     },
     "item_269": {
       "name": "Woven Pants",
@@ -5107,8 +4856,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "RARE",
       "level": "90",
-      "lore": "A loose fitting garment made of moven mushrooms.",
-      "is_chaotic": ""
+      "lore": "A loose fitting garment made of moven mushrooms."
     },
     "item_270": {
       "name": "Fungi Sandals",
@@ -5125,8 +4873,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "RARE",
       "level": "90",
-      "lore": "Small sandals that were a gift from a thoughtful guardian.",
-      "is_chaotic": ""
+      "lore": "Small sandals that were a gift from a thoughtful guardian."
     }
   },
   "skarr": {
@@ -5140,16 +4887,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 357-376 - 376-395",
-      "main_stat_2": "POISON DMG: +70-75",
-      "main_stat_3": "ACCURACY: +20-25%",
-      "sub_stat_1": "SHATTER: +10-12%",
-      "sub_stat_2": "CRITICAL HIT: +10-12%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +70-75",
+      "sub_stat_2": "ACCURACY: +20-25%",
+      "sub_stat_3": "SHATTER: +10-12%",
+      "sub_stat_4": "CRITICAL HIT: +10-12%",
       "rarity": "EPIC",
       "level": "92",
-      "lore": "A single, well-placed strike triumphs any foe.",
-      "is_chaotic": ""
+      "lore": "A single, well-placed strike triumphs any foe."
     },
     "item_272": {
       "name": "Crown of Conquering",
@@ -5166,8 +4912,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "EPIC",
       "level": "92",
-      "lore": "No other troll gear has so little bloodstains.",
-      "is_chaotic": ""
+      "lore": "No other troll gear has so little bloodstains."
     },
     "item_273": {
       "name": "Conqueror's Perfect Plate",
@@ -5184,8 +4929,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "EPIC",
       "level": "92",
-      "lore": "Shiny as the day it was made, polished and undented.",
-      "is_chaotic": ""
+      "lore": "Shiny as the day it was made, polished and undented."
     },
     "item_274": {
       "name": "Conqueror's Efficient Leggings",
@@ -5202,8 +4946,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "EPIC",
       "level": "92",
-      "lore": "Flexible leggings for sidestepping spear throws.",
-      "is_chaotic": ""
+      "lore": "Flexible leggings for sidestepping spear throws."
     },
     "item_275": {
       "name": "Conqueror's War-stained Boots",
@@ -5220,8 +4963,7 @@
       "sub_stat_4": "GEM FIND: +14-16%",
       "rarity": "EPIC",
       "level": "92",
-      "lore": "With agile steps, these boots are the only piece to be dirtied.",
-      "is_chaotic": ""
+      "lore": "With agile steps, these boots are the only piece to be dirtied."
     }
   },
   "chef": {
@@ -5235,16 +4977,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 314-330 - 330-347",
-      "main_stat_2": "POISON DMG: +60-64",
-      "main_stat_3": "ACCURACY: +20-25%",
-      "sub_stat_1": "PIERCING: +14-16",
-      "sub_stat_2": "LIFE STEAL: +7-8%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +60-64",
+      "sub_stat_2": "ACCURACY: +20-25%",
+      "sub_stat_3": "PIERCING: +14-16",
+      "sub_stat_4": "LIFE STEAL: +7-8%",
       "rarity": "EPIC",
       "level": "93",
-      "lore": "A razor sharp blade, cursed by the undead skeleton chef.",
-      "is_chaotic": ""
+      "lore": "A razor sharp blade, cursed by the undead skeleton chef."
     },
     "item_277": {
       "name": "Chef's Legendary Toque Blanche",
@@ -5261,8 +5002,7 @@
       "sub_stat_4": "DODGE: +5-6%",
       "rarity": "EPIC",
       "level": "93",
-      "lore": "A legendary toque blanche, ripped and well worn.",
-      "is_chaotic": ""
+      "lore": "A legendary toque blanche, ripped and well worn."
     },
     "item_278": {
       "name": "Chef's Double-Breasted Jacket",
@@ -5279,8 +5019,7 @@
       "sub_stat_4": "DODGE: +5-6%",
       "rarity": "EPIC",
       "level": "93",
-      "lore": "A legendary chef's jacket, wrapped tight around the bones of the skeleton.",
-      "is_chaotic": ""
+      "lore": "A legendary chef's jacket, wrapped tight around the bones of the skeleton."
     },
     "item_279": {
       "name": "Chef's Houndstooth-Patterned Leggings",
@@ -5297,8 +5036,7 @@
       "sub_stat_4": "DODGE: +5-6%",
       "rarity": "EPIC",
       "level": "93",
-      "lore": "A legendary pair of leggings, splattered with blood.",
-      "is_chaotic": ""
+      "lore": "A legendary pair of leggings, splattered with blood."
     },
     "item_280": {
       "name": "Chef's Reinforced Boots",
@@ -5315,8 +5053,7 @@
       "sub_stat_4": "DODGE: +5-6%",
       "rarity": "EPIC",
       "level": "93",
-      "lore": "Legendary wyvern skin boots, solid at the toes.",
-      "is_chaotic": ""
+      "lore": "Legendary wyvern skin boots, solid at the toes."
     }
   },
   "krell": {
@@ -5330,16 +5067,15 @@
       "category": "weapon",
       "sub_category": "mace",
       "main_stat_1": "DMG: 380-399 - 399-418",
-      "main_stat_2": "FIRE DMG: +70-75",
-      "main_stat_3": "VS. PLAYERS: +12-15%",
-      "sub_stat_1": "CRUSHING: +12-15%",
-      "sub_stat_2": "CRITICAL HIT: +10-12%",
-      "sub_stat_3": "BLEEDING: +8-10%",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +70-75",
+      "sub_stat_2": "VS. PLAYERS: +12-15%",
+      "sub_stat_3": "CRUSHING: +12-15%",
+      "sub_stat_4": "CRITICAL HIT: +10-12%",
       "rarity": "EPIC",
       "level": "93",
-      "lore": "A heavy warmaul capable of obliterating defenders.",
-      "is_chaotic": ""
+      "lore": "A heavy warmaul capable of obliterating defenders."
     },
     "item_282": {
       "name": "Krell's Peaked Helm",
@@ -5356,8 +5092,7 @@
       "sub_stat_4": "HEALING: +4-5%",
       "rarity": "EPIC",
       "level": "93",
-      "lore": "Once the key to the throne, owned by one who cannot claim it alone.",
-      "is_chaotic": ""
+      "lore": "Once the key to the throne, owned by one who cannot claim it alone."
     },
     "item_283": {
       "name": "Krell's Adorned Chestplate",
@@ -5374,8 +5109,7 @@
       "sub_stat_4": "HEALING: +4-5%",
       "rarity": "EPIC",
       "level": "93",
-      "lore": "A heavy chestplate marked with medals and awards.",
-      "is_chaotic": ""
+      "lore": "A heavy chestplate marked with medals and awards."
     },
     "item_284": {
       "name": "Krell's Legguards",
@@ -5392,8 +5126,7 @@
       "sub_stat_4": "HEALING: +4-5%",
       "rarity": "EPIC",
       "level": "93",
-      "lore": "Thick, powerful leggings marred with dents and scratches.",
-      "is_chaotic": ""
+      "lore": "Thick, powerful leggings marred with dents and scratches."
     },
     "item_285": {
       "name": "Krell's Trench Boots",
@@ -5410,8 +5143,7 @@
       "sub_stat_4": "HEALING: +4-5%",
       "rarity": "EPIC",
       "level": "93",
-      "lore": "Durable boots that have traveled across the land of Andalucia.",
-      "is_chaotic": ""
+      "lore": "Durable boots that have traveled across the land of Andalucia."
     }
   },
   "butcher": {
@@ -5425,16 +5157,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 333-352 - 352-370",
-      "main_stat_2": "FIRE DMG: +65-70",
-      "main_stat_3": "VS. MONSTERS: +10-12%",
-      "sub_stat_1": "LIFE STEAL: +7-8%",
-      "sub_stat_2": "EXECUTE: +10-12%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +65-70",
+      "sub_stat_2": "VS. MONSTERS: +10-12%",
+      "sub_stat_3": "LIFE STEAL: +7-8%",
+      "sub_stat_4": "EXECUTE: +10-12%",
       "rarity": "RARE",
       "level": "95",
-      "lore": "The butcher's bloody cleaver that can cut human bone in a single chop.",
-      "is_chaotic": ""
+      "lore": "The butcher's bloody cleaver that can cut human bone in a single chop."
     },
     "item_287": {
       "name": "The Butcher's Hood",
@@ -5451,8 +5182,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "95",
-      "lore": "The blood-splattered hood of a butcher.",
-      "is_chaotic": ""
+      "lore": "The blood-splattered hood of a butcher."
     },
     "item_288": {
       "name": "The Butcher's Platemail",
@@ -5469,8 +5199,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "95",
-      "lore": "The dented chestpiece of a ruthless killer.",
-      "is_chaotic": ""
+      "lore": "The dented chestpiece of a ruthless killer."
     },
     "item_289": {
       "name": "The Butcher's Apron",
@@ -5487,8 +5216,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "95",
-      "lore": "The butcher's once white apron cannot be recognized anymore.",
-      "is_chaotic": ""
+      "lore": "The butcher's once white apron cannot be recognized anymore."
     },
     "item_290": {
       "name": "The Butcher's Boots",
@@ -5505,8 +5233,7 @@
       "sub_stat_4": "ELEMENTAL RESISTANCE: +15-20%",
       "rarity": "RARE",
       "level": "95",
-      "lore": "Chunks of human meat are stuck to the soles.",
-      "is_chaotic": ""
+      "lore": "Chunks of human meat are stuck to the soles."
     }
   },
   "carnage_harbinger": {
@@ -5520,16 +5247,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 370-389 - 389-407",
-      "main_stat_2": "FIRE DMG: +70-75",
-      "main_stat_3": "SHATTER: +10-12%",
-      "sub_stat_1": "CRITICAL HIT: +10-12%",
-      "sub_stat_2": "VS. PLAYERS: +12-15%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +70-75",
+      "sub_stat_2": "SHATTER: +10-12%",
+      "sub_stat_3": "CRITICAL HIT: +10-12%",
+      "sub_stat_4": "VS. PLAYERS: +12-15%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "Radiant energy pulses off the head of the axe. The only safe part is the hilt.",
-      "is_chaotic": ""
+      "lore": "Radiant energy pulses off the head of the axe. The only safe part is the hilt."
     },
     "item_292": {
       "name": "Sunshade",
@@ -5546,8 +5272,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "A sunhat that protects against heat.",
-      "is_chaotic": ""
+      "lore": "A sunhat that protects against heat."
     },
     "item_293": {
       "name": "Nadiri's Revenge",
@@ -5564,8 +5289,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "Halas likes to bang his axe against it, so all challengers will hear him.",
-      "is_chaotic": ""
+      "lore": "Halas likes to bang his axe against it, so all challengers will hear him."
     },
     "item_294": {
       "name": "Scaled Legs",
@@ -5582,8 +5306,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "The scales of these leggings reflect all manner of light.",
-      "is_chaotic": ""
+      "lore": "The scales of these leggings reflect all manner of light."
     },
     "item_295": {
       "name": "Sandstone Boots",
@@ -5600,8 +5323,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "The grit that covers these boots traces back to the Al Sahra Savannah.",
-      "is_chaotic": ""
+      "lore": "The grit that covers these boots traces back to the Al Sahra Savannah."
     }
   },
   "chaos_harbinger": {
@@ -5613,18 +5335,17 @@
       "tier": "5",
       "img": "t5_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 353-371 - 371-389",
-      "main_stat_2": "ICE DMG: +65-70",
-      "main_stat_3": "EXECUTE: +10-12%",
-      "sub_stat_1": "CLEAVE: +10-12%",
-      "sub_stat_2": "VS. MONSTERS: +10-12%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +65-70",
+      "sub_stat_2": "EXECUTE: +10-12%",
+      "sub_stat_3": "CLEAVE: +10-12%",
+      "sub_stat_4": "VS. MONSTERS: +10-12%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "The chilling edge cuts through shadow just as well as flesh.",
-      "is_chaotic": ""
+      "lore": "The chilling edge cuts through shadow just as well as flesh."
     },
     "item_297": {
       "name": "Frozen Sallet",
@@ -5641,8 +5362,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "Brain Freeze doesn\u2019t even begin to describe this helmet.",
-      "is_chaotic": ""
+      "lore": "Brain Freeze doesn’t even begin to describe this helmet."
     },
     "item_298": {
       "name": "Frosted Chest",
@@ -5659,8 +5379,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "The wind flurries across the spines of ice that coat this chestplate.",
-      "is_chaotic": ""
+      "lore": "The wind flurries across the spines of ice that coat this chestplate."
     },
     "item_299": {
       "name": "Glazed Leggings",
@@ -5677,8 +5396,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "The solid ice can cause even the sharpest blades to slip on its surface.",
-      "is_chaotic": ""
+      "lore": "The solid ice can cause even the sharpest blades to slip on its surface."
     },
     "item_300": {
       "name": "Glacial Sliders",
@@ -5695,8 +5413,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "Coated with ice, slipping with these boots results in more good than harm.",
-      "is_chaotic": ""
+      "lore": "Coated with ice, slipping with these boots results in more good than harm."
     }
   },
   "crystal_king": {
@@ -5710,16 +5427,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 353-369 - 369-386",
-      "main_stat_2": "POISON DMG: +60-64",
-      "main_stat_3": "ICE DMG: +60-64",
-      "sub_stat_1": "FIRE DMG: +60-64",
-      "sub_stat_2": "PURE DMG: +60-64",
-      "sub_stat_3": "CRITICAL HIT: +6-8%",
-      "sub_stat_4": "EXECUTE: +6-8%",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +60-64",
+      "sub_stat_2": "ICE DMG: +60-64",
+      "sub_stat_3": "FIRE DMG: +60-64",
+      "sub_stat_4": "PURE DMG: +60-64",
       "rarity": "LEGENDARY",
       "level": "95",
-      "lore": "This brilliant blade flashes a spectrum of colors from its crystalline edge.",
-      "is_chaotic": ""
+      "lore": "This brilliant blade flashes a spectrum of colors from its crystalline edge."
     },
     "item_302": {
       "name": "Crystal Crown",
@@ -5736,8 +5452,7 @@
       "sub_stat_4": "VIT: +350-400",
       "rarity": "LEGENDARY",
       "level": "95",
-      "lore": "In an empty world, the only thing it needed was one who could mold it.",
-      "is_chaotic": ""
+      "lore": "In an empty world, the only thing it needed was one who could mold it."
     },
     "item_303": {
       "name": "Obelisk Cuirass",
@@ -5754,8 +5469,7 @@
       "sub_stat_4": "VIT: +350-400",
       "rarity": "LEGENDARY",
       "level": "95",
-      "lore": "Unbreakable crystal, formed of gemstones for thousands of years, fashioned into a chestplate.",
-      "is_chaotic": ""
+      "lore": "Unbreakable crystal, formed of gemstones for thousands of years, fashioned into a chestplate."
     },
     "item_304": {
       "name": "Monolith Cuisse",
@@ -5772,8 +5486,7 @@
       "sub_stat_4": "VIT: +350-400",
       "rarity": "LEGENDARY",
       "level": "95",
-      "lore": "The void between the crystal is filled with energy.",
-      "is_chaotic": ""
+      "lore": "The void between the crystal is filled with energy."
     },
     "item_305": {
       "name": "Rift Walkers",
@@ -5790,8 +5503,7 @@
       "sub_stat_4": "VIT: +350-400",
       "rarity": "LEGENDARY",
       "level": "95",
-      "lore": "Energy flows into you from the void your toes. You feel like you're flying.",
-      "is_chaotic": ""
+      "lore": "Energy flows into you from the void your toes. You feel like you're flying."
     }
   },
   "void_watcher": {
@@ -5813,8 +5525,7 @@
       "sub_stat_4": "THORNS: +7-8%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "The energy from the crystals flows directly into your skull.",
-      "is_chaotic": ""
+      "lore": "The energy from the crystals flows directly into your skull."
     },
     "item_307": {
       "name": "Mirrored Hauberk",
@@ -5831,8 +5542,7 @@
       "sub_stat_4": "THORNS: +7-8%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "Void energy pulses from the chestplate into your core.",
-      "is_chaotic": ""
+      "lore": "Void energy pulses from the chestplate into your core."
     },
     "item_308": {
       "name": "Void Tassets",
@@ -5849,8 +5559,7 @@
       "sub_stat_4": "THORNS: +7-8%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "Spiked crystals coat the exterior of these greaves.",
-      "is_chaotic": ""
+      "lore": "Spiked crystals coat the exterior of these greaves."
     },
     "item_309": {
       "name": "Gravity Soles",
@@ -5867,8 +5576,7 @@
       "sub_stat_4": "THORNS: +7-8%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "These boots feel both heavy and light at the same time.",
-      "is_chaotic": ""
+      "lore": "These boots feel both heavy and light at the same time."
     },
     "item_310": {
       "name": "Voidseeker",
@@ -5877,16 +5585,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 404-424 - 424-444",
-      "main_stat_2": "PURE DMG: +75-80",
-      "main_stat_3": "BLEEDING: +12-15%",
-      "sub_stat_1": "BLINDING: +12-15%",
-      "sub_stat_2": "SLOW: +12-15%",
-      "sub_stat_3": "VS. PLAYERS: +12-15%",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +75-80",
+      "sub_stat_2": "BLEEDING: +12-15%",
+      "sub_stat_3": "BLINDING: +12-15%",
+      "sub_stat_4": "SLOW: +12-15%",
       "rarity": "EPIC",
       "level": "95",
-      "lore": "A crystalline bow. The string hums with energy.",
-      "is_chaotic": ""
+      "lore": "A crystalline bow. The string hums with energy."
     }
   },
   "kilatan": {
@@ -5898,18 +5605,17 @@
       "tier": "5",
       "img": "t5_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 357-375 - 375-392",
-      "main_stat_2": "FIRE DMG: +64-68",
-      "main_stat_3": "CLEAVE: +10-12%",
-      "sub_stat_1": "LIFE STEAL: +7-8%",
-      "sub_stat_2": "VS. MONSTERS: +10-12%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +64-68",
+      "sub_stat_2": "CLEAVE: +10-12%",
+      "sub_stat_3": "LIFE STEAL: +7-8%",
+      "sub_stat_4": "VS. MONSTERS: +10-12%",
       "rarity": "EPIC",
       "level": "96",
-      "lore": "Kiltan's most prized creation, imbued with the essence of the underworld.",
-      "is_chaotic": ""
+      "lore": "Kiltan's most prized creation, imbued with the essence of the underworld."
     },
     "item_312": {
       "name": "Kilatan's Deathcrown",
@@ -5926,8 +5632,7 @@
       "sub_stat_4": "DODGE: +5-6%",
       "rarity": "EPIC",
       "level": "96",
-      "lore": "A golden crown of tyranny and unrelenting power.",
-      "is_chaotic": ""
+      "lore": "A golden crown of tyranny and unrelenting power."
     },
     "item_313": {
       "name": "Kilatan's Legendary Platemail",
@@ -5944,8 +5649,7 @@
       "sub_stat_4": "DODGE: +5-6%",
       "rarity": "EPIC",
       "level": "96",
-      "lore": "How the mighty fall.",
-      "is_chaotic": ""
+      "lore": "How the mighty fall."
     },
     "item_314": {
       "name": "Kilatan's Legendary Platelegs",
@@ -5962,8 +5666,7 @@
       "sub_stat_4": "DODGE: +5-6%",
       "rarity": "EPIC",
       "level": "96",
-      "lore": "Plates that protect the foundation of Gorgath's empire.",
-      "is_chaotic": ""
+      "lore": "Plates that protect the foundation of Gorgath's empire."
     },
     "item_315": {
       "name": "Kilatan's Legendary Boots",
@@ -5980,8 +5683,7 @@
       "sub_stat_4": "DODGE: +5-6%",
       "rarity": "EPIC",
       "level": "96",
-      "lore": "Boots that carry the weight of the underworld.",
-      "is_chaotic": ""
+      "lore": "Boots that carry the weight of the underworld."
     }
   },
   "priscilla": {
@@ -5995,16 +5697,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 340-357 - 357-374",
-      "main_stat_2": "ICE DMG: +60-64",
-      "main_stat_3": "CRITICAL HIT: +10-12%",
-      "sub_stat_1": "ACCURACY: +20-25%",
-      "sub_stat_2": "EXECUTE: +10-12%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +60-64",
+      "sub_stat_2": "CRITICAL HIT: +10-12%",
+      "sub_stat_3": "ACCURACY: +20-25%",
+      "sub_stat_4": "EXECUTE: +10-12%",
       "rarity": "EPIC",
       "level": "96",
-      "lore": "A cold steel blade so sharp it can split snowflakes.",
-      "is_chaotic": ""
+      "lore": "A cold steel blade so sharp it can split snowflakes."
     },
     "item_317": {
       "name": "Priscilla's Crystal Tiara",
@@ -6021,8 +5722,7 @@
       "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "96",
-      "lore": "A sturdy and lightweight tiara created from fragments of frozen crystals.",
-      "is_chaotic": ""
+      "lore": "A sturdy and lightweight tiara created from fragments of frozen crystals."
     },
     "item_318": {
       "name": "Robe of the Frozen North",
@@ -6039,8 +5739,7 @@
       "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "96",
-      "lore": "A light cyan robe woven from the mystical snow of the north.",
-      "is_chaotic": ""
+      "lore": "A light cyan robe woven from the mystical snow of the north."
     },
     "item_319": {
       "name": "Frozen Silk Pants",
@@ -6057,8 +5756,7 @@
       "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "96",
-      "lore": "A pair of incredibly soft pants made to keep Priscilla agile in the northern frost.",
-      "is_chaotic": ""
+      "lore": "A pair of incredibly soft pants made to keep Priscilla agile in the northern frost."
     },
     "item_320": {
       "name": "Bear Skin Boots",
@@ -6075,8 +5773,7 @@
       "sub_stat_4": "DODGE: +4-5%",
       "rarity": "EPIC",
       "level": "96",
-      "lore": "Boots made from the strong skin of polar bears in the north.",
-      "is_chaotic": ""
+      "lore": "Boots made from the strong skin of polar bears in the north."
     }
   },
   "ultimate_carnage_harbinger": {
@@ -6090,16 +5787,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 407-425 - 425-445",
-      "main_stat_2": "FIRE DMG: +70-75",
-      "main_stat_3": "SHATTER: +10-12%",
-      "sub_stat_1": "CRITICAL HIT: +10-12%",
-      "sub_stat_2": "VS. PLAYERS: +12-15%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +70-75",
+      "sub_stat_2": "SHATTER: +10-12%",
+      "sub_stat_3": "CRITICAL HIT: +10-12%",
+      "sub_stat_4": "VS. PLAYERS: +12-15%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "Radiant energy pulses off the head of the axe. The only safe part is the hilt.",
-      "is_chaotic": ""
+      "lore": "Radiant energy pulses off the head of the axe. The only safe part is the hilt."
     },
     "item_322": {
       "name": "Sunshade",
@@ -6116,8 +5812,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "A sunhat that protects against heat.",
-      "is_chaotic": ""
+      "lore": "A sunhat that protects against heat."
     },
     "item_323": {
       "name": "Nadiri's Revenge",
@@ -6134,8 +5829,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "Halas likes to bang his axe against it, so all challengers will hear him.",
-      "is_chaotic": ""
+      "lore": "Halas likes to bang his axe against it, so all challengers will hear him."
     },
     "item_324": {
       "name": "Scaled Legs",
@@ -6152,8 +5846,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "The scales of these leggings reflect all manner of light.",
-      "is_chaotic": ""
+      "lore": "The scales of these leggings reflect all manner of light."
     },
     "item_325": {
       "name": "Sandstone Boots",
@@ -6170,8 +5863,7 @@
       "sub_stat_4": "REFLECT: +3-4%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "The grit that covers these boots traces back to the Al Sahra Savannah.",
-      "is_chaotic": ""
+      "lore": "The grit that covers these boots traces back to the Al Sahra Savannah."
     }
   },
   "ultimate_chaos_harbinger": {
@@ -6183,18 +5875,17 @@
       "tier": "5",
       "img": "t5_scythe",
       "category": "weapon",
-      "sub_category":"scythe",
+      "sub_category": "scythe",
       "main_stat_1": "DMG: 389-406 - 406-425",
-      "main_stat_2": "ICE DMG: +65-70",
-      "main_stat_3": "EXECUTE: +10-12%",
-      "sub_stat_1": "CLEAVE: +10-12%",
-      "sub_stat_2": "VS. MONSTERS: +12-15%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "ICE DMG: +65-70",
+      "sub_stat_2": "EXECUTE: +10-12%",
+      "sub_stat_3": "CLEAVE: +10-12%",
+      "sub_stat_4": "VS. MONSTERS: +12-15%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "The chilling edge cuts through shadow just as well as flesh.",
-      "is_chaotic": ""
+      "lore": "The chilling edge cuts through shadow just as well as flesh."
     },
     "item_327": {
       "name": "Frozen Sallet",
@@ -6211,8 +5902,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "Brain Freeze doesn\u2019t even begin to describe this helmet.",
-      "is_chaotic": ""
+      "lore": "Brain Freeze doesn’t even begin to describe this helmet."
     },
     "item_328": {
       "name": "Frosted Chest",
@@ -6229,8 +5919,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "The wind flurries across the spines of ice that coat this chestplate.",
-      "is_chaotic": ""
+      "lore": "The wind flurries across the spines of ice that coat this chestplate."
     },
     "item_329": {
       "name": "Glazed Leggings",
@@ -6247,8 +5936,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "The solid ice can cause even the sharpest blades to slip on its surface.",
-      "is_chaotic": ""
+      "lore": "The solid ice can cause even the sharpest blades to slip on its surface."
     },
     "item_330": {
       "name": "Glacial Sliders",
@@ -6265,8 +5953,7 @@
       "sub_stat_4": "HEALING: +3-4%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "Coated with ice, slipping with these boots results in more good than harm.",
-      "is_chaotic": ""
+      "lore": "Coated with ice, slipping with these boots results in more good than harm."
     }
   },
   "ultimate_crystal_king": {
@@ -6280,16 +5967,15 @@
       "category": "weapon",
       "sub_category": "sword",
       "main_stat_1": "DMG: 388-404 - 404-421",
-      "main_stat_2": "POISON DMG: +60-64",
-      "main_stat_3": "ICE DMG: +60-64",
-      "sub_stat_1": "FIRE DMG: +60-64",
-      "sub_stat_2": "PURE DMG: +60-64",
-      "sub_stat_3": "CRITICAL HIT: +6-8%",
-      "sub_stat_4": "EXECUTE: +6-8%",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "POISON DMG: +60-64",
+      "sub_stat_2": "ICE DMG: +60-64",
+      "sub_stat_3": "FIRE DMG: +60-64",
+      "sub_stat_4": "PURE DMG: +60-64",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "This brilliant blade flashes a spectrum of colors from its crystalline edge.",
-      "is_chaotic": ""
+      "lore": "This brilliant blade flashes a spectrum of colors from its crystalline edge."
     },
     "item_332": {
       "name": "Crystal Crown",
@@ -6306,8 +5992,7 @@
       "sub_stat_4": "VIT: +350-400",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "In an empty world, the only thing it needed was one who could mold it.",
-      "is_chaotic": ""
+      "lore": "In an empty world, the only thing it needed was one who could mold it."
     },
     "item_333": {
       "name": "Obelisk Cuirass",
@@ -6324,8 +6009,7 @@
       "sub_stat_4": "VIT: +350-400",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "Unbreakable crystal, formed of gemstones for thousands of years, fashioned into a chestplate.",
-      "is_chaotic": ""
+      "lore": "Unbreakable crystal, formed of gemstones for thousands of years, fashioned into a chestplate."
     },
     "item_334": {
       "name": "Monolith Cuisse",
@@ -6342,8 +6026,7 @@
       "sub_stat_4": "VIT: +350-400",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "The void between the crystal is filled with energy.",
-      "is_chaotic": ""
+      "lore": "The void between the crystal is filled with energy."
     },
     "item_335": {
       "name": "Rift Walkers",
@@ -6360,8 +6043,7 @@
       "sub_stat_4": "VIT: +350-400",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "Energy flows into you from the void your toes. You feel like you're flying.",
-      "is_chaotic": ""
+      "lore": "Energy flows into you from the void your toes. You feel like you're flying."
     }
   },
   "ultimate_void_watcher": {
@@ -6383,8 +6065,7 @@
       "sub_stat_4": "THORNS: +7-8%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "The energy from the crystals flows directly into your skull.",
-      "is_chaotic": ""
+      "lore": "The energy from the crystals flows directly into your skull."
     },
     "item_337": {
       "name": "Mirrored Hauberk",
@@ -6401,8 +6082,7 @@
       "sub_stat_4": "THORNS: +7-8%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "Void energy pulses from the chestplate into your core.",
-      "is_chaotic": ""
+      "lore": "Void energy pulses from the chestplate into your core."
     },
     "item_338": {
       "name": "Void Tassets",
@@ -6419,8 +6099,7 @@
       "sub_stat_4": "THORNS: +7-8%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "Spiked crystals coat the exterior of these greaves.",
-      "is_chaotic": ""
+      "lore": "Spiked crystals coat the exterior of these greaves."
     },
     "item_339": {
       "name": "Gravity Soles",
@@ -6437,8 +6116,7 @@
       "sub_stat_4": "THORNS: +7-8%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "These boots feel both heavy and light at the same time.",
-      "is_chaotic": ""
+      "lore": "These boots feel both heavy and light at the same time."
     },
     "item_340": {
       "name": "Voidseeker",
@@ -6447,16 +6125,15 @@
       "category": "weapon",
       "sub_category": "bow",
       "main_stat_1": "DMG: 444-464 - 464-485",
-      "main_stat_2": "PURE DMG: +75-80",
-      "main_stat_3": "BLEEDING: +12-15%",
-      "sub_stat_1": "BLINDING: +12-15%",
-      "sub_stat_2": "SLOW: +12-15%",
-      "sub_stat_3": "VS. PLAYERS: +12-15%",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "PURE DMG: +75-80",
+      "sub_stat_2": "BLEEDING: +12-15%",
+      "sub_stat_3": "BLINDING: +12-15%",
+      "sub_stat_4": "SLOW: +12-15%",
       "rarity": "LEGENDARY",
       "level": "100",
-      "lore": "A crystalline bow. The string hums with energy.",
-      "is_chaotic": ""
+      "lore": "A crystalline bow. The string hums with energy."
     }
   },
   "xulgrath": {
@@ -6470,16 +6147,15 @@
       "category": "weapon",
       "sub_category": "axe",
       "main_stat_1": "DMG: 406-426 - 426-446",
-      "main_stat_2": "FIRE DMG: +70-75",
-      "main_stat_3": "SHATTER: +10-12%",
-      "sub_stat_1": "CRITICAL HIT: +12-15%",
-      "sub_stat_2": "CRUSHING: +10-12%",
-      "sub_stat_3": "",
-      "sub_stat_4": "",
+      "main_stat_2": "",
+      "main_stat_3": "",
+      "sub_stat_1": "FIRE DMG: +70-75",
+      "sub_stat_2": "SHATTER: +10-12%",
+      "sub_stat_3": "CRITICAL HIT: +12-15%",
+      "sub_stat_4": "CRUSHING: +10-12%",
       "rarity": "EPIC",
       "level": "105",
-      "lore": "The axe of Gorgath's champion. It banishes foes to the underworld immediately after death.",
-      "is_chaotic": ""
+      "lore": "The axe of Gorgath's champion. It banishes foes to the underworld immediately after death."
     },
     "item_342": {
       "name": "Xul'Grath's Helm of Wisdom",
@@ -6496,8 +6172,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "105",
-      "lore": "A legendary helmet that possesses vast knowledge of all of Andalucia's history.",
-      "is_chaotic": ""
+      "lore": "A legendary helmet that possesses vast knowledge of all of Andalucia's history."
     },
     "item_343": {
       "name": "Xul'Grath's Carapace of Souls",
@@ -6514,8 +6189,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "105",
-      "lore": "Platemail forged and pervaded by the souls of the underworld. It seems virtually unbreakable.",
-      "is_chaotic": ""
+      "lore": "Platemail forged and pervaded by the souls of the underworld. It seems virtually unbreakable."
     },
     "item_344": {
       "name": "Xul'Grath's Warded Leggings of the Underworld",
@@ -6532,8 +6206,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "105",
-      "lore": "The tough leggings of Maltai's defender, infused with the might of Gorgath.",
-      "is_chaotic": ""
+      "lore": "The tough leggings of Maltai's defender, infused with the might of Gorgath."
     },
     "item_345": {
       "name": "Xul'Grath's Unwavering Boots of Fortitude",
@@ -6550,8 +6223,7 @@
       "sub_stat_4": "DODGE: +3-4%",
       "rarity": "EPIC",
       "level": "105",
-      "lore": "Boots that have walked throughout many realms.",
-      "is_chaotic": ""
+      "lore": "Boots that have walked throughout many realms."
     }
   }
 }
