@@ -207,7 +207,8 @@ if (selectedRarities.size) {
       const haystack = [
         it.name, it.drops_from, it.location,
         it.main_stat_1, it.main_stat_2, it.main_stat_3,
-        it.sub_stat_1, it.sub_stat_2, it.sub_stat_3, it.sub_stat_4
+        it.sub_stat_1, it.sub_stat_2, it.sub_stat_3, it.sub_stat_4,
+        it.sub_stat_5, it.sub_stat_6
       ].join(' ').toLowerCase();
       const term = synonymsMap[searchTerm] || searchTerm;
       return haystack.includes(term);
@@ -240,7 +241,7 @@ function makeCard(it) {
   info.innerHTML = `
     <p class="item-name">${it.name}</p>
     <p class="item-tier">Tier ${it.tier}</p>
-    <p class="item-level">Lvl ${it.level}</p>
+    <p class="item-level">Level ${it.level}</p>
   `;
   card.appendChild(info);
 
@@ -258,7 +259,7 @@ function makeCard(it) {
     }
   });
 
-  [1,2,3,4].forEach(i => {
+  [1,2,3,4,5,6].forEach(i => {
     const stat = it[`sub_stat_${i}`];
     if (stat) {
       const p = document.createElement('p');
