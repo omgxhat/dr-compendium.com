@@ -1,0 +1,973 @@
+{
+  "deathly_chill": {
+    "name": "Deathly Chill",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 0.2,
+    "max": 5,
+    "desc": "Gain Ice damage, multiplied by 2 ^ weapon tier.",
+    "format": "+{value}{unitSuffix} Ice DMG"
+  },
+  "deaths_grasp": {
+    "name": "Active: Death's Grasp",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "For 6 seconds, all of your damage \nis Marking. At the end of the \nduration, 40.0% of Marked damage \nis repeated.\n\nCooldown: 50 Seconds\nDuration: 6 Seconds\nCost: 35 Mana\n\nThis skill can be activated after unlock by pressing your swap key. (F by default)",
+    "noValue": true
+  },
+  "scythe_mastery": {
+    "name": "Scythe Mastery",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "Gain an additional chance to cleave while wielding a scythe.",
+    "format": "Current: {value}"
+  },
+  "dash": {
+    "name": "Active: Dash",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Dash a short distance in the \ndirection you are moving.\n\nCooldown: 7 Seconds\nRange: 4\nCost: 20 Mana\n\nThis skill can be activated after unlock\nby pressing your drop key. (Q by\ndefault)",
+    "noValue": true    
+  },
+  "soul_harvest": {
+    "name": "Soul Harvest",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 1.5,
+    "max": 10,
+    "desc": "Killing an enemy increases your \ndamage for 8 seconds.",
+    "format": "Current: {value}"
+  },
+  "frost_nova": {
+    "name": "Skill Modifier: Frost Nova",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Briefly slow enemies in a 4 block\nradius before dashing, and gain 15\nCleave for 5 seconds.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "cull_the_weak": {
+    "name": "Cull The Weak",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 2,
+    "max": 5,
+    "desc": "Increased damage to slowed targets\nby a percentage.",
+    "format": "Current: {value}"
+  },
+  "leach": {
+    "name": "Leach",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 10,
+    "desc": "Gain lifesteal for 5 seconds after\nkilling an enemy.",
+    "format": "Current: {value}"
+  },
+  "numb": {
+    "name": "Numb",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 10,
+    "max": 5,
+    "desc": "Ignore a percentage of enemy thorns\n and reflect.",
+    "format": "Current: {value}"
+  },
+  "mirrored_warding": {
+    "name": "Mirrored Warding",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "Gain a passive chance to reflect.",
+    "format": "Current: {value}"
+  },
+  "undying": {
+    "name": "Undying",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 2,
+    "max": 10,
+    "desc": "Gain damage reduction while below\n50% of your max health.",
+    "format": "Current: {value}"
+  },
+  "bloodied_frenzy": {
+    "name": "Skill Modifier: Bloodied Frenzy",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "desc": "Death's Grasp deals 0.75% more\ndamage per percent of your missing\nhealth.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "blood_transfusion": {
+    "name": "Blood Transfusion",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 5,
+    "max": 5,
+    "desc": "Gain HP Recovery while below 50% of\nyour max health.",
+    "format": "Current: {value}"
+  },
+  "death_rites": {
+    "name": "Death Rites",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 4,
+    "max": 10,
+    "desc": "Killing an enemy has a chance to\n reduce the cooldown of your skill\n by 5 seconds.",
+    "format": "Current: {value}"
+  },
+  "necrotic_invigoration": {
+    "name": "Necrotic Invigoration",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 4,
+    "max": 5,
+    "desc": "Gain a percentage increase to your\nEnergy Regen while below 50%\nhealth.",
+    "format": "Current: {value}"
+  },
+  "binding": {
+    "name": "Skill Modifier: Binding",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "At the end of Death's Grasp, apply\nSlowness and Glowing to all Marked\nenemies for 8 seconds.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "draining": {
+    "name": "Draining",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 2,
+    "max": 5,
+    "desc": "Gain a chance to absorb energy from\nyour attackers.",
+    "format": "Current: {value}"
+  },
+  "phylactery": {
+    "name": "Phylactery",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 20,
+    "max": 5,
+    "desc": "Upon PvE death, your durability\nloss is reduced by a percentage.",
+    "format": "Current: {value}"
+  },
+  "putrid_proliferation": {
+    "name": "Putrid Proliferation",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 10,
+    "desc": "Gain an additional chance to cleave\nagainst enemies that are not\nslowed.",
+    "format": "Current: {value}"
+  },
+  "arcane_literacy": {
+    "name": "Arcane Literacy",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 8,
+    "max": 5,
+    "desc": "The duration of teleportation\nchanneling is reduced by a\npercentage.",
+    "format": "Current: {value}"
+  },
+  "slicing_blows": {
+    "name": "Slicing Blows",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "Gain a passive chance to execute\nenemies that are slowed.",
+    "format": "Current: {value}"
+  },
+  "arcane_obscurity": {
+    "name": "Arcane Obscurity",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 10,
+    "desc": "Gain Reflect and Thorns while below\n50% of your max health.",
+    "format": "Current: {value}"
+  },
+  "empowered_cleave": {
+    "name": "Skill Modifier: Empowered Cleave",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "During Death's Grasp, cleave bonus\ndamage is increased from 50% to\n100%, and cleave slow chance is\nincreased from 30% to 100%.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "desecration": {
+    "name": "Desecration",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "Your attacks have a chance to cause\n bleeding on players.",
+    "format": "Current: {value}"
+  },
+  "blood_rites": {
+    "name": "Blood Rites",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 1,
+    "max": 10,
+    "desc": "Killing an enemy restores a\npercentage of your missing health.",
+    "format": "Current: {value}"
+  },
+  "mortal_transmutation": {
+    "name": "Mortal Transmutation",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 2,
+    "max": 5,
+    "desc": "Gain lifesteal while being 50%\nhealth.",
+    "format": "Current: {value}"
+  },
+  "sapping": {
+    "name": "Sapping",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 10,
+    "max": 5,
+    "desc": "A percentage of your lifesteal is\nadded as additional damage.",
+    "format": "Current: {value}"
+  },
+  "blood_siphon": {
+    "name": "Skill Modifier: Blood Siphon",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "At the end of Death's Grasp, half\nof the repeated Marked damage is\nrestored as health.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "the_fast": {
+    "name": "Active: The Fast",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Gain speed 2, jump boost 2, and 15%\nincreased Energy and Mana\nregeneration rate for 8 seconds.\nReset start-of-combat bonuses.\n\nCooldown: 45 Seconds\nDuration: 8 Seconds\nCost: 35 Mana\n\nThis skill can be activated after unlock\nby pressing your swap key. (F by\ndefault)",
+    "noValue": true
+  },
+  "sword_mastery": {
+    "name": "Sword Mastery",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "Gain an additional chance to\nexecute while wielding a sword.",
+    "format": "Current: {value}"
+  },
+  "toxic_steel": {
+    "name": "Toxic Steel",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 0.2,
+    "max": 5,
+    "desc": "Gain Poison damage, multiplied by 2\n^ weapon tier.",
+    "format": "Current: {value}"
+  },
+  "leeching_poison": {
+    "name": "Leeching Poison",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 5,
+    "max": 10,
+    "desc": "A portion of outgoing Poison Damage\nis gained as health. An equal\nportion of your elemental damage\nis converted to Poison damage.",
+    "format": "Current: {value}"
+  },
+  "ghost_shroud": {
+    "name": "Skill Modifier: Ghost Shroud",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Briefly vanish upon dashing,\ngaining 10% increased damage vs\nmonsters for 3 seconds.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "grave_robber": {
+    "name": "Grave Robber",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 5,
+    "max": 5,
+    "desc": "Gain a flat amount of item find.",
+    "format": "Current: {value}"
+  },
+  "underdog": {
+    "name": "Underdog",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 2,
+    "max": 5,
+    "desc": "If you have less max health than\nyour attacker, gain additional\ndodge.",
+    "format": "Current: {value}"
+  },
+  "shadowmeld": {
+    "name": "Shadowmeld",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 3.5,
+    "max": 10,
+    "desc": "Your combat timer is reduced by a percentage.",
+    "format": "Current: {value}"
+  },
+  "band_of_thieves": {
+    "name": "Band of Thieves",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 2,
+    "max": 5,
+    "desc": "Your damage and resistance against\nplayers is increased by a\npercentage.",
+    "format": "Current: {value}"
+  },
+  "vicious": {
+    "name": "Vicious",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 2.5,
+    "max": 10,
+    "desc": "The damage of your critical strikes\nis scaled by a percentage.",
+    "format": "Current: {value}"
+  },
+  "ambush": {
+    "name": "Ambush",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 2,
+    "max": 5,
+    "desc": "You gain additional DPS for the\nfirst 4 seconds of combat.",
+    "format": "Current: {value}"
+  },
+  "combo_strike": {
+    "name": "Skill Modifier: Combo Strike",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "During The Fast, gain 5% DPS for\neach consecutive hit, up to a\nmaximum of 50%.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "potency": {
+    "name": "Potency",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 1.5,
+    "max": 10,
+    "desc": "Deal increased damage to poisoned\nenemies.",
+    "format": "Current: {value}"
+  },
+  "first_strike": {
+    "name": "First Strike",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 2,
+    "max": 5,
+    "desc": "You gain an additional chance to\ncritically strike for the first 4\n seconds of combat.",
+    "format": "Current: {value}"
+  },
+  "feather_falling": {
+    "name": "Feather Falling",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 20,
+    "max": 5,
+    "desc": "Your fall damage is reduced by a\npercentage.",
+    "format": "Current: {value}"
+  },
+  "executioner": {
+    "name": "Skill Modifier: Executioner",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Gain a 15% chance to Execute for\nthe duration of The Fast.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "greedy": {
+    "name": "Greedy",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 3,
+    "max": 5,
+    "desc": "Increase the chance to loot gems\nfrom mob kills.",
+    "format": "Current: {value}"
+  },
+  "swift": {
+    "name": "Swift",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "Gain additional dodge that stacks\nwith your armor's dodge.",
+    "format": "Current: {value}"
+  },
+  "precision": {
+    "name": "Precision",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 10,
+    "desc": "Gain additional accuracy, and half\nof the accuracy you have now also acts as piercing.",
+    "format": "Current: {value}"
+  },
+  "its_just_my_nature": {
+    "name": "It's Just My Nature",
+    "unit": "time",
+    "base": 0,
+    "perRank": 0.5,
+    "max": 5,
+    "desc": "Increases the duration of all\nstart-of-combat skills.",
+    "format": "Current: {value}"
+  },
+  "adrenaline": {
+    "name": "Adrenaline",
+    "unit": "energy",
+    "base": 0,
+    "perRank": 0.4,
+    "max": 10,
+    "desc": "Gain a flat increase to Energy\nRegen for 8 seconds after killing\nan enemy.",
+    "format": "Current: {value}"
+  },
+  "analysis": {
+    "name": "Analysis",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 4,
+    "max": 5,
+    "desc": "Gain Accuracy during the first 4\n seconds of combat.",
+    "format": "Current: {value}"
+  },
+  "the_furious": {
+    "name": "Skill Modifier: The Furious",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Gain  15 Piercing for the duration\nof The Fast.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "recuperation": {
+    "name": "Recuperation",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 5,
+    "max": 10,
+    "desc": "Gain increased healing from all sources while out of combat.",
+    "format": "Current: {value}"
+  },
+  "adroitness": {
+    "name": "Adroitness",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 3,
+    "max": 5,
+    "desc": "You gain additional dodge for the\nfirst 4 seconds of combat.",
+    "format": "Current: {value}"
+  },
+  "scoundrel": {
+    "name": "Scoundrel",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 20,
+    "max": 5,
+    "desc": "When a player dies within 15\nblocks, gain a chance to drop out\nof combat. (1/5th chance for\nmonsters).",
+    "format": "Current: {value}"
+  },
+  "invigorating_presence": {
+    "name": "Skill Modifier: Invigorating Presence",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Grant allies within a 25 block\nradius with +15% DPS upon The Fast\nactivation (Does not stack).\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "berserk": {
+    "name": "Active: Berserk",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Gain 40% more health as a shield,\nwhich decreases by 10% per second\nuntil you are back at your\nstarting health. Additionally, you\ncannot regenerate health while\nyour shield is active,\n\nCooldown: 55 Seconds\nDuration: 10 Seconds\nCost: 35 Mana\n\nThis skill can be activated after unlock\nby pressing your swap key. (F by\ndefault)",
+    "noValue": true
+  },
+  "axe_mastery": {
+    "name": "Axe Mastery",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "Gain an additional chance to\nexecute while wielding an axe.",
+    "format": "Current: {value}"
+  },
+  "fiery_fury": {
+    "name": "Fiery Fury",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 0.2,
+    "max": 5,
+    "desc": "Gain Fire damage, multiplied by 2\n^ weapon tier.",
+    "format": "Current: {value}"
+  },
+  "shattering_steel": {
+    "name": "Shattering Steel",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 10,
+    "desc": "Gain an additional chance to\nshatter when you have higher armor\nthan the target you are hitting.",
+    "format": "Current: {value}"
+  },
+  "body_slam": {
+    "name": "Skill Modifier: Body Slam",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "At the end of your dash, knock\nback enemies within 3 blocks into the\nair. For each enemy affected, gain\n5 armor for 3 seconds. (Max 25\narmor)\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "devour": {
+    "name": "Devour",
+    "unit": "chance",
+    "base": 0,
+    "perRank": 5,
+    "max": 5,
+    "desc": "Gain a chance to refill 5% of your\nmaximum health and hunger on kill.",
+    "format": "Current: {value}"
+  },
+  "frenzy": {
+    "name": "Frenzy",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 10,
+    "desc": "Gain an additional chance to\ncritically strike targets under\n30% health.",
+    "format": "Current: {value}"
+  },
+  "immovable_object": {
+    "name": "Immovable Object",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 5,
+    "max": 5,
+    "desc": "Gain a chance to push enemies back\nwhen you Block their melee attack.",
+    "format": "Current: {value}"
+  },
+  "shake_it_off": {
+    "name": "Shake It Off",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 5,
+    "max": 5,
+    "desc": "Your attacks have a chance to free\nyou from all negative potion\neffects.",
+    "format": "Current: {value}"
+  },
+  "relentless_pursuit": {
+    "name": "Relentless Pursuit",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 3,
+    "max": 10,
+    "desc": "You have a chance to gain 15%\nmovement speed for 5 seconds upon\nbeing hit.",
+    "format": "Current: {value}"
+  },
+  "rage": {
+    "name": "Rage",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 5,
+    "max": 5,
+    "desc": "You have a chance to gain 5 energy\nupon being hit.",
+    "format": "Current: {value}"
+  },
+  "iron_core": {
+    "name": "Skill Modifier: Iron Core",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "While Berserk is active, take 15%\nless damage.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "gladiator": {
+    "name": "Gladiator",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 5,
+    "max": 5,
+    "desc": "Every second in combat, gain 1%\nadditional Healing, up to a\nmaximum.",
+    "format": "Current: {value}"
+  },
+  "juggernaut": {
+    "name": "Juggernaut",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 10,
+    "desc": "Every second in combat, gain 1\nadditional armor, up to a maximum.",
+    "format": "Current: {value}"
+  },
+  "champion": {
+    "name": "Champion",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 2,
+    "max": 5,
+    "desc": "Every second in combat, gain 2%\nincreased armor, up to a maximum.",
+    "format": "Current: {value}"
+  },
+  "ragnarok": {
+    "name": "Skill Modifier: Ragnarok",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Gain 15% Block and 15% Energy\nRecovery during Berserk.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "sustainability": {
+    "name": "Sustainability",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 5,
+    "max": 2,
+    "desc": "Gain a chance for your weapon to\nnot lose durability.",
+    "format": "Current: {value}"
+  },
+  "shield_wall": {
+    "name": "Shield Wall",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 0.5,
+    "max": 10,
+    "desc": "Gain a flat amount of block.",
+    "format": "Current: {value}"
+  },
+  "unstoppable_force": {
+    "name": "Unstoppable Force",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 12,
+    "max": 5,
+    "desc": "Every second in combat, gain 2%\nincreased armor, up to a maximum.",
+    "format": "Current: {value}"
+  },
+  "madman": {
+    "name": "Madman",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 20,
+    "max": 5,
+    "desc": "Missing a swing costs less energy.",
+    "format": "Current: {value}"
+  },
+  "weathered_warrior": {
+    "name": "Weathered Warrior",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 2,
+    "max": 10,
+    "desc": "Gain a flat amount of elemental \nresistance.",
+    "format": "Current: {value}"
+  },
+  "tough_skin": {
+    "name": "Tough Skin",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 3,
+    "max": 5,
+    "desc": "Adds a percentage of your Elemental\nResistance as extra Armor, up to a\nmaximum of 15.",
+    "format": "Current: {value}"
+  },
+  "deadly_blows": {
+    "name": "Skill Modifier: Deadly Blows",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Gain 12% Critical Strike chance\nduring Berserk.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "overwhelming_odds": {
+    "name": "Overwhelming Odds",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "For each enemy nearby (Max 5), gain\nincreased cooldown recovery.",
+    "format": "Current: {value}"
+  },
+  "blood_drinker": {
+    "name": "Blood Drinker",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 0.1,
+    "max": 10,
+    "desc": "Once every second when hitting an\nenemy, recover a percentage of\nyour current health.",
+    "format": "Current: {value}"
+  },
+  "vampyric": {
+    "name": "Vampyric",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 4,
+    "max": 5,
+    "desc": "Your life stealing effects are\nscaled by a percentage.",
+    "format": "Current: {value}"
+  },
+  "bloodthirsty": {
+    "name": "Skill Modifier: Bloodthirsty",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "For 10 seconds after Berserk ends,\ngain 12% Life Steal.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "divine_protection": {
+    "name": "Active: Divine Protection",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Gain a shield for 15% of your\nmaximum health for 10 seconds.\nDamage that destroys the shield\ndoes not overflow to yourhealth.\n\nCooldown: 60 Seconds\nDuration: 10 Seconds\nCost: 35 Mana\n\nThis skill can be activated after unlock\nby pressing your swap key. (F by\ndefault)",
+    "noValue": true
+  },
+  "mace_mastery": {
+    "name": "Mace Mastery",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "Gain an additional chance to\ncrush while wielding an axe.",
+    "format": "Current: {value}"
+  },
+  "holy_strikes": {
+    "name": "Holy Strikes",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 0.2,
+    "max": 5,
+    "desc": "Gain Pure damage, multiplied by 2\n^ weapon tier.",
+    "format": "Current: {value}"
+  },
+  "holy_blessing": {
+    "name": "Holy Blessing",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 0.75,
+    "max": 10,
+    "desc": "Healing you receive has a chance to be doubled",
+    "format": "Current: {value}"
+  },
+  "holy_march": {
+    "name": "Skill Modifier: Holy March",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Upon dashing, heal your lowest %HP\nally within 16 blocks for 4% of\ntheir maximum health.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "exorcism": {
+    "name": "Exorcism",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "Your damage to monsters is\nincreased by a percentage.",
+    "format": "Current: {value}"
+  },
+  "attunement": {
+    "name": "Attunement",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 5,
+    "max": 5,
+    "desc": "Gain a flat amount of elemental\nresistance", 
+    "format": "Current: {value}"
+  },
+  "sanctified": {
+    "name": "Sanctified",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 2,
+    "max": 10,
+    "desc": "Your Divine Protection shield's\nhealth has a percentage more\nhealth.",
+    "format": "Current: {value}"
+  },
+  "guardian_angel": {
+    "name": "Guardian Angel",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 4,
+    "max": 5,
+    "desc": "Your lowest health ally in a party\nof 4+ within 25 blocks gains\nadditional block.",
+    "format": "Current: {value}"
+  },
+  "defender": {
+    "name": "Defender",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 0.5,
+    "max": 10,
+    "desc": "Upon blocking an attack, gain a\nflat amount of armor for 1 second.",
+    "format": "Current: {value}"
+  },
+  "undying_will": {
+    "name": "Skill Modifier: Undying Will",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "You are immune to slowness. If your\nshield is broken, knock back and\ndamage enemies in a 8 block radius\nfor 30% of the shield's starting\nhealth.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "strength_in_numbers": {
+    "name": "Strength in Numbers",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 0.5,
+    "max": 5,
+    "desc": "Increase your health by a\npercentage for each ally in a 25\nblock radius, up to a maximum of 4\nallies.",
+    "format": "Current: {value}"
+  },
+  "crushing_blows": {
+    "name": "Crushing Blows",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 0.5,
+    "max": 10,
+    "desc": "Crushing has a chance to give\nSlowness 1 for 3 seconds.",
+    "format": "Current: {value}"
+  },
+  "zeal_aura": {
+    "name": "Zeal Aura",
+    "unit": "energy",
+    "base": 0,
+    "perRank": 0.5,
+    "max": 5,
+    "desc": "The energy of allies in a 25 block\nradius is increased by a flat\nvalue. (Does not stack)",
+    "format": "Current: {value}"
+  },
+  "sanctity": {
+    "name": "Sanctity",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 3,
+    "max": 5,
+    "desc": "Reduce your Divine Protection\ncooldown by a percentage.",
+    "format": "Current: {value}"
+  },
+  "rejuvenation": {
+    "name": "Skill Modifier: Rejuvenation",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Heal yourself and your allies by 1%\nof your max health per second and\nslow your enemies during Divine\nProtection.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "smite": {
+    "name": "Smite",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "Your damage to players is increased\nby a percentage.",
+    "format": "Current: {value}"
+  },
+  "bastion": {
+    "name": "Bastion",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "If you have more max health than\nyour attacker, youu have a flat\nincreased chance to block their\nattack.",
+    "format": "Current: {value}"
+  },
+  "cleansing_aura": {
+    "name": "Cleansing Aura",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 6,
+    "max": 5,
+    "desc": "A percentage of your Pure damage\nacts as healing for yourself and\nallies within 25 blocks. (1 second\ncooldown)",
+    "format": "Current: {value}"
+  },
+  "holy_wrath": {
+    "name": "Holy Wrath",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 2,
+    "max": 10,
+    "desc": "Deal a percentage increased Pure\ndamage.",
+    "format": "Current: {value}"
+  },
+  "consecration": {
+    "name": "Skill Modifier: Consecration",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Your Pure damage is increased by\n25% during Divine Protection.\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  },
+  "purity": {
+    "name": "Purity",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 10,
+    "max": 5,
+    "desc": "A portion of your elemental damage\nis converted to Pure damage.",
+    "format": "Current: {value}"
+  },
+  "faith": {
+    "name": "Faith",
+    "unit": "percent",
+    "base": 0,
+    "perRank": 0.75,
+    "max": 10,
+    "desc": "Your maximum health is increased by\na percentage.",
+    "format": "Current: {value}"
+  },
+  "devotion_aura": {
+    "name": "Devotion Aura",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "You and allies in a 25 block radius\nare granted additional block.\n(Does not stack)",
+    "format": "Current: {value}"
+  },
+  "quick_recovery": {
+    "name": "Quick Recovery",
+    "unit": "flat",
+    "base": 0,
+    "perRank": 1,
+    "max": 5,
+    "desc": "Gain a flat amount of HP recovery.",
+    "format": "Current: {value}"
+  },
+  "the_phalanx": {
+    "name": "Skill Modifier: The Phalanx",
+    "unit": "none",
+    "base": 0,
+    "perRank": 0,
+    "max": 1,
+    "desc": "Allies within 15 blocks gain 10%\nDamage Reduction during Divine\nProtection. (Does not stack)\n\nSkill modifiers change the functionality\nof your active ability.",
+    "noValue": true
+  }
+}

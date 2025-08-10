@@ -1,0 +1,175 @@
+/* Page layout */
+body {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+}
+@media (max-width: 700px) { body { grid-template-columns: 1fr; } }
+
+/* Sidebar & main */
+aside.search-panel { background: #2a2a2a; padding: 1rem; }
+section { background: #252525; padding: 1rem; }
+
+/* Filters */
+#filters { display: flex; flex-direction: column; gap: .75rem; margin-top: .75rem; }
+.filter-group { display: flex; flex-wrap: wrap; gap: .5rem; }
+#filters button {
+  padding: .25rem .75rem; font-size: .9rem;
+  border: 1px solid #3a3a3a; border-radius: 6px;
+  background: #1b1b1b; color: #ddd; cursor: pointer;
+  transition: background .2s, border-color .2s, color .2s;
+}
+#filters button:hover { background: #222; }
+#filters button.active { background: #007bff; color: #fff; border-color: #007bff; }
+
+/* Box-sizing reset */
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
+/* Card grid */
+#grid {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  justify-items: start;
+  align-items: start;
+}
+
+/* Cards */
+.card {
+  position: relative;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0 0 0 0 rgba(255,255,255,0);
+  transition: box-shadow .18s cubic-bezier(.2,.8,.2,1),
+              transform  .18s cubic-bezier(.2,.8,.2,1);
+  cursor: pointer;
+  overflow: hidden;
+  will-change: box-shadow, transform;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.04),  /* faint inner highlight */
+    0 1px 2px rgba(0,0,0,.40);            /* base depth */
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,.18), 0 4px 12px rgba(0,0,0,.12);
+}
+
+/* Tier borders */
+.tier-1 { border: 3px solid #AAA; }
+.tier-2 { border: 3px solid #5F5; }
+.tier-3 { border: 3px solid #5FF; }
+.tier-4 { border: 3px solid #F5F; }
+.tier-5 { border: 3px solid #FF5; }
+
+/* Item visuals */
+.item-image {
+  display: block;
+  width: 48px;
+  margin: 0 auto 0.5rem;
+}
+.item-name {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+.item-tier,
+.item-level {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+.item-tier { margin-bottom: 0.1rem; }
+.item-level { margin-bottom: 0.25rem; }
+
+/* Details panel (smooth expand/collapse) */
+.card .details {
+  display: block !important;
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  transition: max-height 0.4s ease;
+}
+.card .details.open {
+  max-height: 30rem;
+}
+
+/* Stats */
+.main-stat {
+  margin: 0.4rem 0;
+  color: #F55;
+}
+.main-stat + .sub-stat {
+  margin-top: 1.25rem;
+}
+.sub-stat {
+  margin: 0.4rem 0;
+  color: #F55;
+}
+
+/* Rarity & lore */
+.rarity {
+  margin: 0.85rem 0 0.85rem;
+  font-style: italic;
+  text-transform: lowercase
+}
+.rarity::first-letter { text-transform: uppercase; }
+
+.card.rarity-common    .rarity { color: #AAAAAA; }
+.card.rarity-rare      .rarity { color: #55FFFF; }
+.card.rarity-epic      .rarity { color: #AA00AA; }
+.card.rarity-legendary .rarity { color: #FFFF55; }
+.card.ultimate .item-name { color: #AA0000; }       /* name only */
+
+.lore {
+  margin: 0;
+  font-style: italic;
+  color: #CCC;
+}
+
+/* Tooltip & zone */
+.info-icon-container {
+  position: relative;
+  margin-top: 0.75rem;
+}
+.info-icon {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  text-align: left;
+  visibility: hidden;
+  z-index: 10;
+}
+.info-icon-container:hover .tooltip {
+  visibility: visible;
+}
+.tooltip .zone {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+.tooltip .chaotic { color: #F55; }
+.tooltip .lawful  { color: #0A0; }
+/* Space below the fixed topbar on the items page */
+body.items-page{
+  padding-top: calc(56px + 1rem); /* 56 for the bar + your existing page padding */
+}
+
+/* Optional: if you wrapped content in <main class="items-main"> */
+.items-main{ display: contents; } /* keeps your existing grid layout unaffected */
