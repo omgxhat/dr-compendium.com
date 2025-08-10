@@ -1,5 +1,5 @@
 // Global state
-const VERSION = '12'; 
+const VERSION = '13'; 
 let items = [];
 const synonymsMap = {};
 let selectedCategories = new Set();

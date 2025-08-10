@@ -1,6 +1,6 @@
 // ===== skills.js =====
 
-const VERSION = '2';
+const VERSION = '3';
 
 // DOM
 const elTree   = document.getElementById('tree');
@@ -87,6 +87,7 @@ const [defsRes, treesRes] = await Promise.all([
   fetch(`data/skills/defs.json?v=${VERSION}`,  { cache: 'no-store' }),
   fetch(`data/skills/trees.json?v=${VERSION}`, { cache: 'no-store' })
 ]);
+
 
   defs = await defsRes.json();
   data = await treesRes.json();
