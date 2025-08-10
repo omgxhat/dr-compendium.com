@@ -83,10 +83,11 @@ init().catch(err => console.error(err));
 
 async function init() {
   // load definitions + trees
-  const [defsRes, treesRes] = await Promise.all([
-    fetch(`../data/skills/defs.json?v=${VERSION}`,  { cache: 'no-store' }),
-    fetch(`../data/skills/trees.json?v=${VERSION}`, { cache: 'no-store' })
-  ]);
+const [defsRes, treesRes] = await Promise.all([
+  fetch(`data/skills/defs.json?v=${VERSION}`,  { cache: 'no-store' }),
+  fetch(`data/skills/trees.json?v=${VERSION}`, { cache: 'no-store' })
+]);
+
   defs = await defsRes.json();
   data = await treesRes.json();
   GRID = data.grid || GRID;

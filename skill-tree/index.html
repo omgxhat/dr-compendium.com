@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      var base = document.createElement('base');
+      base.href = location.hostname.endsWith('github.io')
+        ? '/dr-compendium.com/'
+        : '/';
+      document.head.appendChild(base);
+    })();
+  </script>
+  <title>Dungeon Realms – Skill Tree</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Base styles first, feature styles second -->
+  <link rel="stylesheet" href="css/base.css?v=4" />
+  <link rel="stylesheet" href="css/skills.css?v=4" />
+</head>
+<body class="skills-page">
+
+  <!-- Top navigation -->
+  <nav class="topbar" aria-label="Primary">
+    <a class="brand" href="about/">Dungeon Realms Compendium</a>
+    <div class="nav-links">
+    <a href="items/">Items</a>
+      <a role="menuitem" href="./" class="active" aria-current="page">Skills</a>
+      <!-- Disabled link with tooltip; kept focusable off the tab order -->
+      <a role="menuitem"
+         href="#"
+         class="disabled"
+         aria-disabled="true"
+         tabindex="-1"
+         onclick="return false;"
+         title="Coming soon"
+         data-tip="coming soon">Discord</a>
+    </div>
+  </nav>
+
+  <main class="skills-main">
+    <!-- Controls (ids used by JS; do not change) -->
+    <header class="skills-controls" aria-label="Skill tree controls">
+      <label for="classSelect">
+        Class
+        <select id="classSelect" name="class">
+          <option value="reaver">Reaver</option>
+          <option value="rogue">Rogue</option>
+          <option value="warrior">Warrior</option>
+          <option value="paladin">Paladin</option>
+        </select>
+      </label>
+
+      <label for="levelInput">
+        Level
+        <input id="levelInput"
+               name="level"
+               type="number"
+               min="1"
+               max="100"
+               step="1"
+               value="20"
+               inputmode="numeric"
+               autocomplete="off" />
+      </label>
+
+      <!-- Live points summary updated by JS -->
+      <div class="points" aria-live="polite">
+        <span id="spent">0</span> / <span id="total">0</span> pts
+      </div>
+
+      <div class="actions">
+        <button id="resetBtn" class="btn btn-ghost" type="button">Reset</button>
+        <button id="shareBtn" class="btn btn-primary" type="button">Copy Share Link</button>
+      </div>
+    </header>
+
+    <!-- 9×6 skill grid; populated by JS -->
+    <section id="tree"
+             class="mc-board"
+             role="grid"
+             aria-label="Skill grid (Left click to add, right click to remove)"
+             aria-live="polite">
+    </section>
+
+    <!-- Helper text; safe to remove later if you prefer -->
+    <p class="helper" style="text-align:center; opacity:.75; margin-top:.75rem;">
+      Left-click to add a point, right-click to remove. Start at the top center.
+    </p>
+  </main>
+
+  <noscript>
+    <p style="text-align:center; padding:1rem;">JavaScript is required for the interactive skill tree.</p>
+  </noscript>
+
+  <!-- App script (versioned for cache-busting) -->
+  <script defer src="../js/skills.js?v=2"></script>
+</body>
+</html>

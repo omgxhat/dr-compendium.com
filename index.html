@@ -1,18 +1,18 @@
-<!-- 404.html -->
+<!-- /index.html at repo root -->
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Page not found</title>
-  <meta http-equiv="refresh" content="0; url=/dr-compendium.com/about.html">
+  <title>Redirecting…</title>
+  <link rel="canonical" href="about/">
+  <meta http-equiv="refresh" content="0; url=about/">
   <script>
-    // project pages live under /dr-compendium.com/
-    const base = '/dr-compendium.com/';
-    const target = base + 'about.html';
-    window.location.replace(target);
+    // preserve query + hash
+    location.replace('about/' + location.search + location.hash);
   </script>
 </head>
 <body>
-  <p>Page not found. Taking you to the <a href="/dr-compendium.com/about.html">home page</a>…</p>
+  <p>Redirecting to <a href="about/">about/</a>…</p>
 </body>
 </html>
+
